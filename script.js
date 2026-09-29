@@ -757,24 +757,21 @@ function displayAudit() {
 
         let actionClass = "";
 
-        if (
-            audit.action === "Added"
-        ) {
+        if (audit.action === "Added") {
 
-            actionClass =
-                "action-added";
+            actionClass = "action-added";
 
-        } else if (
-            audit.action === "Updated"
-        ) {
+        } else if (audit.action === "Updated") {
 
-            actionClass =
-                "action-updated";
+            actionClass = "action-updated";
 
-        } else {
+        } else if (audit.action === "Deleted") {
 
-            actionClass =
-                "action-deleted";
+            actionClass = "action-deleted";
+
+        } else if (audit.action === "Restored") {
+
+            actionClass = "action-restored";
 
         }
 
@@ -1190,6 +1187,18 @@ function deleteArchivedProduct(index) {
 
 }
 
+function toggleMobileSidebar() {
+
+    document
+        .querySelector(".sidebar")
+        .classList.toggle("mobile-open");
+
+    document
+        .querySelector(".sidebar-overlay")
+        .classList.toggle("active");
+
+}
+
 function showProductPage(page, event) {
 
     if (event) {
@@ -1244,6 +1253,14 @@ function showProductPage(page, event) {
     if (page === "archive") {
         displayArchivedProducts();
     }
+
+    document
+        .querySelector(".sidebar")
+        .classList.remove("mobile-open");
+
+    document
+        .querySelector(".sidebar-overlay")
+        .classList.remove("active");
 
 }
 
