@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Luxe By EA - Product Management</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<aside class="sidebar">
+
+    <div class="brand">
+        <h1>LOVE LUXE</h1>
+        <p>BY EA • EST. 2024</p>
+    </div>
+
+    <div class="menu-title">
+        GENERAL
+    </div>
+
+    <a href="#" class="nav">
+        Dashboard
+    </a>
+
+    <div class="menu-title">
+        TEAM MODULES
+    </div>
+
+    <a href="#" class="nav">
+        New Order / POS
+        <span>−</span>
+    </a>
+
+    <a href="#" class="nav">
+        Appointments
+        <span>−</span>
+    </a>
+
+    <a href="#" class="nav">
+        Activity Logs
+        <span>−</span>
+    </a>
+
+    <div class="product-section">
+
+        <a href="#" class="nav product-parent" id="productParent" onclick="toggleProductMenu(event)">
+            <span>Product Management</span>
+
+            <button
+                type="button"
+                class="menu-toggle"
+                id="productToggle"
+                onclick="toggleProductMenu(event)"
+            >
+                −
+            </button>
+        </a>
+
+        <div class="submenu" id="productMenu">
+
+            <a
+                href="#"
+                class="subnav active"
+                data-page="products"
+                onclick="showProductPage('products', event)"
+            >
+                Add/Create Product
+            </a>
+
+            <a
+                href="#"
+                class="subnav"
+                data-page="audit"
+                onclick="showProductPage('audit', event)"
+            >
+                Product Audit Trail
+            </a>
+
+            <a
+                href="#"
+                class="subnav"
+                data-page="archive"
+                onclick="showProductPage('archive', event)"
+            >
+                Product Archive
+            </a>
+
+        </div>
+
+    </div>
+
+    <a href="#" class="nav">
+        Inventory & Stock
+    </a>
+
+    <a href="#" class="nav">
+        Sales Reports
+    </a>
+
+</aside>
+
+
+<main class="main-content">
+
+    <section id="productsPage" class="product-page">
+
+        <div class="page-header">
+
+            <div>
+                <p class="eyebrow">PRODUCT MANAGEMENT</p>
+
+                <h2>Add / Create Product</h2>
+
+                <p class="subtitle">
+                    Add and manage the product information of Love Luxe By EA.
+                </p>
+            </div>
+
+        </div>
+
+        <section class="content-grid">
+
+            <div class="form-card">
+
+                <div class="card-title">
+                    <h3>Product Information</h3>
+
+                    <p>
+                        Enter the details of the product.
+                    </p>
+                </div>
+
+                <div class="form-group">
+
+                    <label for="productCode">
+                        Product Code
+                    </label>
+
+                    <input
+                        type="text"
+                        id="productCode"
+                        placeholder="e.g. LL-001"
+                    >
+
+                </div>
+
+                <div class="form-group">
+
+                    <label for="productName">
+                        Product Name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="productName"
+                        placeholder="Enter product name"
+                    >
+
+                </div>
+
+                <div class="form-group">
+
+                    <label for="category">
+                        Category
+                    </label>
+
+                    <select id="category">
+
+                        <option value="">
+                            Select category
+                        </option>
+
+                        <option value="Bags">
+                            Bags
+                        </option>
+
+                        <option value="Clothing">
+                            Clothing
+                        </option>
+
+                        <option value="Perfumes">
+                            Perfumes
+                        </option>
+
+                        <option value="Body Care Products">
+                            Body Care Products
+                        </option>
+
+                    </select>
+
+                </div>
+
+                <div class="form-row">
+
+                    <div class="form-group">
+
+                        <label for="price">
+                            Price
+                        </label>
+
+                        <input
+                            type="number"
+                            id="price"
+                            placeholder="₱0.00"
+                        >
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label for="size">
+                            Size
+                        </label>
+
+                        <input
+                            type="text"
+                            id="size"
+                            placeholder="e.g. Small / 100ml"
+                        >
+
+                    </div>
+
+                </div>
+
+                <div class="form-group" id="colorGroup">
+
+                    <label for="color">
+                        Color
+                    </label>
+
+                    <input
+                        type="text"
+                        id="color"
+                        placeholder="e.g. Black"
+                    >
+
+                </div>
+
+                <div class="form-group">
+
+                    <label for="productImage">
+                        Product Image
+                    </label>
+
+                    <label class="upload-box">
+
+                        <input
+                            type="file"
+                            id="productImage"
+                            accept="image/*"
+                        >
+
+                        <div id="uploadText">
+
+                            <span>＋</span>
+
+                            <p>
+                                Upload product image
+                            </p>
+
+                            <small>
+                                PNG, JPG or JPEG
+                            </small>
+
+                        </div>
+
+                        <img
+                            id="imagePreview"
+                            alt="Product Preview"
+                        >
+
+                    </label>
+
+                </div>
+
+                <button
+                    class="add-btn"
+                    id="addProductButton"
+                    onclick="addProduct()"
+                >
+                    Add Product
+                </button>
+
+            </div>
+
+
+            <div class="products-card">
+
+                <div class="products-header">
+
+                    <div>
+
+                        <h3>
+                            Product List
+                        </h3>
+
+                        <p>
+                            Manage your current product records.
+                        </p>
+
+                    </div>
+
+                    <div class="filters">
+
+                        <input
+                            type="text"
+                            id="searchInput"
+                            placeholder="Search products or product code..."
+                            oninput="displayProducts()"
+                        >
+
+                        <select
+                            id="filterCategory"
+                            onchange="displayProducts()"
+                        >
+
+                            <option value="">
+                                All Categories
+                            </option>
+
+                            <option value="Bags">
+                                Bags
+                            </option>
+
+                            <option value="Clothing">
+                                Clothing
+                            </option>
+
+                            <option value="Perfumes">
+                                Perfumes
+                            </option>
+
+                            <option value="Body Care Products">
+                                Body Care Products
+                            </option>
+
+                        </select>
+
+                    </div>
+
+                </div>
+
+                <div id="productContainer">
+
+                    <div class="empty">
+                        No products found.
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </section>
+
+
+    <section id="auditPage" class="product-page" style="display: none;">
+
+        <div class="page-header">
+
+            <div>
+                <p class="eyebrow">
+                    PRODUCT MANAGEMENT
+                </p>
+
+                <h2>
+                    Product Audit Trail
+                </h2>
+
+                <p class="subtitle">
+                    Track and record activities performed on product records.
+                </p>
+            </div>
+
+        </div>
+
+
+        <section class="summary-grid">
+
+            <div class="summary-card">
+                <p>Total Activities</p>
+                <h2 id="totalActivities">0</h2>
+                <div class="summary-line"></div>
+            </div>
+
+            <div class="summary-card">
+                <p>Products Added</p>
+                <h2 id="addedCount">0</h2>
+                <div class="summary-line"></div>
+            </div>
+
+            <div class="summary-card">
+                <p>Products Updated</p>
+                <h2 id="updatedCount">0</h2>
+                <div class="summary-line"></div>
+            </div>
+
+            <div class="summary-card">
+                <p>Products Deleted</p>
+                <h2 id="deletedCount">0</h2>
+                <div class="summary-line"></div>
+            </div>
+
+        </section>
+
+
+        <section class="audit-section">
+
+            <div class="section-header">
+
+                <div>
+
+                    <p class="small-title">
+                        ACTIVITY RECORDS
+                    </p>
+
+                    <h2>
+                        Product Activity History
+                    </h2>
+
+                    <p>
+                        Activities are automatically recorded from Product Management.
+                    </p>
+
+                </div>
+
+                <span
+                    class="record-count"
+                    id="recordCount"
+                >
+                    0 Records
+                </span>
+
+            </div>
+
+
+            <div class="toolbar">
+
+                <input
+                    type="text"
+                    id="auditSearchInput"
+                    placeholder="Search product name or product code..."
+                    oninput="displayAudit()"
+                >
+
+                <select
+                    id="actionFilter"
+                    onchange="displayAudit()"
+                >
+
+                    <option value="">
+                        All Actions
+                    </option>
+
+                    <option value="Added">
+                        Added
+                    </option>
+
+                    <option value="Updated">
+                        Updated
+                    </option>
+
+                    <option value="Deleted">
+                        Deleted
+                    </option>
+
+                    <option value="Restored">
+                        Restored
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <div class="table-container">
+
+                <table>
+
+                    <thead>
+
+                        <tr>
+                            <th>Date & Time</th>
+                            <th>User</th>
+                            <th>Product Code</th>
+                            <th>Product Name</th>
+                            <th>Action</th>
+                            <th>Changes Made</th>
+                        </tr>
+
+                    </thead>
+
+                    <tbody id="auditTable"></tbody>
+
+                </table>
+
+                <div
+                    id="emptyMessage"
+                    class="empty"
+                >
+                    No product activities recorded yet.
+                </div>
+
+            </div>
+
+        </section>
+
+    </section>
+
+
+    <section id="archivePage" class="product-page" style="display: none;">
+
+        <div class="page-header">
+
+            <div>
+                <p class="eyebrow">
+                    PRODUCT MANAGEMENT
+                </p>
+
+                <h2>
+                    Product Archive
+                </h2>
+
+                <p class="subtitle">
+                    Review and restore products that have been removed.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <section class="archive-section">
+
+            <div class="section-header">
+
+                <div>
+
+                    <p class="small-title">
+                        RECENTLY DELETED PRODUCTS
+                    </p>
+
+                    <h2>
+                        Archived Products
+                    </h2>
+
+                    <p>
+                        Deleted products are automatically moved here for review or restoration.
+                    </p>
+
+                </div>
+
+                <span
+                    class="record-count"
+                    id="archiveRecordCount"
+                >
+                    0 Records
+                </span>
+
+            </div>
+
+
+            <div class="toolbar">
+
+                <input
+                    type="text"
+                    id="archiveSearchInput"
+                    placeholder="Search product name or product code..."
+                    oninput="displayArchivedProducts()"
+                >
+
+                <select
+                    id="archiveFilterCategory"
+                    onchange="displayArchivedProducts()"
+                >
+
+                    <option value="">
+                        All Categories
+                    </option>
+
+                    <option value="Bags">
+                        Bags
+                    </option>
+
+                    <option value="Clothing">
+                        Clothing
+                    </option>
+
+                    <option value="Perfumes">
+                        Perfumes
+                    </option>
+
+                    <option value="Body Care Products">
+                        Body Care Products
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <div
+                id="archiveContainer"
+                class="archive-container"
+            >
+
+                <div class="empty">
+                    No archived products found.
+                </div>
+
+            </div>
+
+        </section>
+
+    </section>
+
+</main>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
