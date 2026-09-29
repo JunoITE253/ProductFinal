@@ -851,7 +851,6 @@ body {
 /* RESPONSIVE */
 
 @media (max-width: 1100px) {
-
     .content-grid {
         grid-template-columns: 1fr;
     }
@@ -879,29 +878,27 @@ body {
 }
 
 @media (max-width: 800px) {
-
-    #archivePage .archive-layout {
-        grid-template-columns: 1fr;
-    }
-}
-
-@media (max-width: 700px) {
-
     .sidebar {
-        width: 220px;
+        width: 230px;
     }
 
     .main-content {
-        width: calc(100% - 220px);
-        margin-left: 220px;
+        width: calc(100% - 230px);
+        margin-left: 230px;
         padding: 30px 20px;
     }
 
-    .form-row {
+    .content-grid {
         grid-template-columns: 1fr;
     }
 
+    .products-header {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
     .filters {
+        width: 100%;
         flex-direction: column;
     }
 
@@ -909,19 +906,15 @@ body {
         width: 100%;
     }
 
-    #auditPage .summary-grid {
+    .form-row {
         grid-template-columns: 1fr;
+    }
+
+    #auditPage .summary-grid {
+        grid-template-columns: repeat(2, 1fr);
     }
 
     #auditPage .toolbar {
-        grid-template-columns: 1fr;
-    }
-
-    #archivePage .archive-container {
-        grid-template-columns: 1fr;
-    }
-
-    #archivePage .toolbar {
         grid-template-columns: 1fr;
     }
 
@@ -932,20 +925,165 @@ body {
         gap: 15px;
     }
 
-    #archivePage .archive-actions {
+    #archivePage .archive-container {
         grid-template-columns: 1fr;
+    }
+
+    #archivePage .toolbar {
+        grid-template-columns: 1fr;
+    }
+
+    #archivePage .archive-actions {
+        grid-template-columns: 1fr 1fr;
     }
 }
 
-@media (max-width: 500px) {
-
+@media (max-width: 600px) {
     .sidebar {
-        display: none;
+        position: relative;
+        width: 100%;
+        height: auto;
+        max-height: none;
+        overflow: visible;
+    }
+
+    .brand {
+        height: 95px;
+        padding-top: 22px;
+    }
+
+    .brand h1 {
+        font-size: 20px;
+    }
+
+    .menu-title {
+        margin-top: 22px;
     }
 
     .main-content {
         width: 100%;
         margin-left: 0;
         padding: 25px 15px;
+    }
+
+    .page-header {
+        margin-bottom: 25px;
+    }
+
+    .page-header h2 {
+        font-size: 27px;
+    }
+
+    .subtitle {
+        font-size: 13px;
+        line-height: 19px;
+    }
+
+    .form-card,
+    .products-card {
+        padding: 18px;
+        border-radius: 12px;
+    }
+
+    .products-header {
+        gap: 15px;
+    }
+
+    .filters {
+        width: 100%;
+    }
+
+    #productContainer {
+        grid-template-columns: 1fr;
+    }
+
+    .product-card img {
+        height: 210px;
+    }
+
+    #auditPage .summary-grid {
+        grid-template-columns: 1fr;
+    }
+
+    #auditPage .audit-section,
+    #archivePage .archive-section {
+        padding: 18px;
+        border-radius: 12px;
+    }
+
+    #auditPage .section-header,
+    #archivePage .section-header {
+        gap: 12px;
+    }
+
+    #auditPage .section-header h2,
+    #archivePage .section-header h2 {
+        font-size: 20px;
+    }
+
+    #auditPage .section-header > div > p:last-child,
+    #archivePage .section-header > div > p:last-child {
+        line-height: 18px;
+    }
+
+    #auditPage .record-count,
+    #archivePage .record-count {
+        align-self: flex-start;
+    }
+
+    #archivePage .archive-container {
+        grid-template-columns: 1fr;
+    }
+
+    #archivePage .archive-actions {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #auditPage .table-container {
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    #auditPage table {
+        min-width: 850px;
+    }
+}
+
+@media (max-width: 400px) {
+    .main-content {
+        padding: 20px 12px;
+    }
+
+    .brand {
+        height: 90px;
+    }
+
+    .nav {
+        font-size: 14px;
+        padding: 12px 15px;
+    }
+
+    .subnav {
+        font-size: 13px;
+    }
+
+    .page-header h2 {
+        font-size: 24px;
+    }
+
+    .form-card,
+    .products-card,
+    #auditPage .audit-section,
+    #archivePage .archive-section {
+        padding: 15px;
+    }
+
+    .product-card img {
+        height: 180px;
+    }
+
+    #archivePage .archive-actions {
+        grid-template-columns: 1fr;
     }
 }
