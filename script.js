@@ -1,138 +1,139 @@
 let products = [
     {
         id: "LL-001",
+        image: "image/sophia-skirt.jpg",
         code: "LL-001",
         name: "Sophia Skirt",
         category: "Clothing",
         price: 790,
         sizes: ["S", "M", "L", "XL", "2XL", "3XL"],
-        colors: ["Black and White Polka", "Light Blue", "Gray", "Black"],
-        scents: [],
-        image: "image/sophia-skirt.jpg"
+        colors: ["Black", "White Polka", "Light Blue", "Gray", "Black"],
+        scents: []
     },
     {
         id: "LL-002",
+        image: "image/nov-mardi-tshirt.jpg",
         code: "LL-002",
         name: "Nov-Mardi T-Shirt",
         category: "Clothing",
         price: 450,
         sizes: ["S", "M", "L", "XL", "2XL", "3XL"],
         colors: ["White", "Pink", "Black"],
-        scents: [],
-        image: "image/nov-mardi-tshirt.jpg"
+        scents: []
     },
     {
         id: "LL-003",
+        image: "image/basic-chic01-terno.jpg",
         code: "LL-003",
         name: "Basic Chic01 Terno",
         category: "Clothing",
         price: 950,
         sizes: ["S", "M", "L", "XL", "2XL", "3XL"],
         colors: ["Fixed Color"],
-        scents: [],
-        image: "image/basic-chic01-terno.jpg"
+        scents: []
     },
     {
         id: "LL-004",
+        image: "image/sami-tshirt.jpg",
         code: "LL-004",
         name: "Sami T-Shirt",
         category: "Clothing",
         price: 790,
         sizes: [],
         colors: ["Brown", "Tan", "Pink", "Black", "Light Blue"],
-        scents: [],
-        image: "image/sami-tshirt.jpg"
+        scents: []
     },
     {
         id: "LL-005",
+        image: "image/alada-soap.jpg",
         code: "LL-005",
         name: "Alada Soap",
         category: "Body Care Products",
         price: 350,
         sizes: [],
         colors: [],
-        scents: [],
-        image: "image/alada-soap.jpg"
+        scents: []
     },
     {
         id: "LL-006",
+        image: "image/dewy-gluta-soap.jpg",
         code: "LL-006",
         name: "Dewy Gluta Soap",
         category: "Body Care Products",
         price: 199,
         sizes: [],
         colors: [],
-        scents: [],
-        image: "image/dewy-gluta-soap.jpg"
+        scents: []
     },
     {
         id: "LL-007",
+        image: "image/serene-skin-soap.jpg",
         code: "LL-007",
         name: "Serene Skin Soap",
         category: "Body Care Products",
         price: 299,
         sizes: [],
         colors: [],
-        scents: [],
-        image: "image/serene-skin-soap.jpg"
+        scents: []
     },
     {
         id: "LL-008",
+        image: "image/vitamine-e-whitening-cream.jpg",
         code: "LL-008",
         name: "Vitamin E Whitening Cream",
         category: "Body Care Products",
         price: 180,
         sizes: [],
         colors: [],
-        scents: [],
-        image: "image/vitamine-e-whitening-cream.jpg"
+        scents: []
     },
     {
         id: "LL-009",
+        image: "image/mini-enzo.jpg",
         code: "LL-009",
         name: "Mini Enzo",
         category: "Bags",
         price: 3590,
         sizes: [],
         colors: ["Black", "Green", "Red", "Blue"],
-        scents: [],
-        image: "image/mini-enzo.jpg"
+        scents: []
     },
     {
         id: "LL-010",
+        image: "image/mini-bucket-bag.jpg",
         code: "LL-010",
         name: "Mini Bucket Bag",
         category: "Bags",
         price: 2090,
         sizes: [],
         colors: ["Dark Blue", "Grayish Blue", "Blue", "Blue Stripes"],
-        scents: [],
-        image: "image/mini-bucket-bag.jpg"
+        scents: []
     },
     {
         id: "LL-011",
+        image: "image/anytime-medium.jpg",
         code: "LL-011",
         name: "Anytime Medium",
         category: "Bags",
         price: 2890,
         sizes: [],
         colors: ["Black", "Tan Taupe", "Tan Taupe Two", "White", "Clay Two"],
-        scents: [],
-        image: "image/anytime-medium.jpg"
+        scents: []
     },
     {
         id: "LL-012",
+        image: "image/emilio-barrel.jpg",
         code: "LL-012",
         name: "Emilio Barrel",
         category: "Bags",
         price: 3590,
         sizes: [],
         colors: ["Dark Brown", "Red", "Green", "Black"],
-        scents: [],
-        image: "image/emilio-barrel.jpg"
+        scents: []
     },
     {
         id: "LL-013",
+        image: "image/victorias-secret-perfume.jpg",
         code: "LL-013",
         name: "Victoria's Secret Perfume",
         category: "Perfumes",
@@ -147,11 +148,11 @@ let products = [
             "Love Spell",
             "Pure Seduction",
             "Velvet Petals"
-        ],
-        image: "image/victorias-secret-perfume.jpg"
+        ]
     },
     {
         id: "LL-014",
+        image: "image/bath-body-works-perfume.jpg",
         code: "LL-014",
         name: "Bath & Body Works Perfume",
         category: "Perfumes",
@@ -164,30 +165,29 @@ let products = [
             "A Thousand Wishes",
             "You're The One",
             "Vanilla Ease"
-        ],
-        image: "image/bath-body-works-perfume.jpg"
+        ]
     },
     {
         id: "LL-015",
+        image: "image/smart-collection-perfume.jpg",
         code: "LL-015",
         name: "Smart Collection Perfume",
         category: "Perfumes",
         price: 350,
         sizes: [],
         colors: [],
-        scents: ["Chanel N'5"],
-        image: "image/smart-collection-perfume.jpg"
+        scents: ["Chanel N'5"]
     },
     {
         id: "LL-016",
+        image: "image/lattafa-yara.jpg",
         code: "LL-016",
         name: "Lattafa YARA",
         category: "Perfumes",
         price: 390,
         sizes: [],
         colors: [],
-        scents: ["Lattafa YARA"],
-        image: "image/lattafa-yara.jpg"
+        scents: ["Lattafa YARA"]
     }
 ];
 
@@ -197,6 +197,11 @@ let inventory = [];
 let restockRecords = [];
 
 let editingIndex = -1;
+
+// Colors and scents typed in by hand. These are never remembered: they are
+// wiped every time the form is cleared, saved or the category changes.
+let manualColors = [];
+let manualScents = [];
 
 const DEFAULT_THRESHOLD = 5;
 
@@ -232,52 +237,48 @@ const INITIAL_STOCK_VALUES = [
     14
 ];
 
-const productImage = document.getElementById("productImage");
-const imagePreview = document.getElementById("imagePreview");
-const uploadText = document.getElementById("uploadText");
-const category = document.getElementById("category");
-const colorGroup = document.getElementById("colorGroup");
-const sizeGroup = document.getElementById("sizeGroup");
+const productImage =
+    document.getElementById("productImage");
 
-let scentGroup = document.getElementById("scentGroup");
-
-if (!scentGroup && colorGroup) {
-    scentGroup = document.createElement("div");
-    scentGroup.id = "scentGroup";
-    scentGroup.className = "field";
-
-    colorGroup.parentNode.insertBefore(
-        scentGroup,
-        colorGroup.nextSibling
-    );
-}
+const category =
+    document.getElementById("category");
 
 function addToArray(array, value) {
     array[array.length] = value;
 }
 
 function removeFromArray(array, index) {
-    if (index < 0 || index >= array.length) {
-        return;
-    }
-
-    for (let i = index; i < array.length - 1; i++) {
+    for (
+        let i = index;
+        i < array.length - 1;
+        i++
+    ) {
         array[i] = array[i + 1];
     }
 
-    array.length = array.length - 1;
+    array.length =
+        array.length - 1;
 }
 
 function addToFront(array, value) {
-    for (let i = array.length; i > 0; i--) {
-        array[i] = array[i - 1];
+    for (
+        let i = array.length;
+        i > 0;
+        i--
+    ) {
+        array[i] =
+            array[i - 1];
     }
 
     array[0] = value;
 }
 
 function containsValue(array, value) {
-    for (let i = 0; i < array.length; i++) {
+    for (
+        let i = 0;
+        i < array.length;
+        i++
+    ) {
         if (array[i] === value) {
             return true;
         }
@@ -287,38 +288,30 @@ function containsValue(array, value) {
 }
 
 function manualTrim(text) {
-    text = String(text || "");
-
     let start = 0;
     let end = text.length - 1;
 
     while (
-        start < text.length &&
-        (
-            text[start] === " " ||
-            text[start] === "\n" ||
-            text[start] === "\t" ||
-            text[start] === "\r"
-        )
+        start <= end &&
+        text[start] === " "
     ) {
         start++;
     }
 
     while (
         end >= start &&
-        (
-            text[end] === " " ||
-            text[end] === "\n" ||
-            text[end] === "\t" ||
-            text[end] === "\r"
-        )
+        text[end] === " "
     ) {
         end--;
     }
 
     let result = "";
 
-    for (let i = start; i <= end; i++) {
+    for (
+        let i = start;
+        i <= end;
+        i++
+    ) {
         result += text[i];
     }
 
@@ -330,12 +323,23 @@ function convertToLowerCase(text) {
 
     text = String(text || "");
 
-    for (let i = 0; i < text.length; i++) {
+    for (
+        let i = 0;
+        i < text.length;
+        i++
+    ) {
         let character = text[i];
-        let code = character.charCodeAt(0);
+        let code =
+            character.charCodeAt(0);
 
-        if (code >= 65 && code <= 90) {
-            character = String.fromCharCode(code + 32);
+        if (
+            code >= 65 &&
+            code <= 90
+        ) {
+            character =
+                String.fromCharCode(
+                    code + 32
+                );
         }
 
         result += character;
@@ -349,12 +353,23 @@ function convertToUpperCase(text) {
 
     text = String(text || "");
 
-    for (let i = 0; i < text.length; i++) {
+    for (
+        let i = 0;
+        i < text.length;
+        i++
+    ) {
         let character = text[i];
-        let code = character.charCodeAt(0);
+        let code =
+            character.charCodeAt(0);
 
-        if (code >= 97 && code <= 122) {
-            character = String.fromCharCode(code - 32);
+        if (
+            code >= 97 &&
+            code <= 122
+        ) {
+            character =
+                String.fromCharCode(
+                    code - 32
+                );
         }
 
         result += character;
@@ -364,73 +379,114 @@ function convertToUpperCase(text) {
 }
 
 function firstLetterUpper(text) {
-    text = String(text || "");
-
-    if (text.length === 0) {
+    if (!text) {
         return "";
     }
 
-    let first = text[0];
-    let code = first.charCodeAt(0);
+    return (
+        convertToUpperCase(
+            text.charAt(0)
+        ) +
+        text.substring(1)
+    );
+}
 
-    if (code >= 97 && code <= 122) {
-        first = String.fromCharCode(code - 32);
+function getProductInitials(name) {
+    if (!name) {
+        return "P";
     }
 
-    let result = first;
+    let words = [];
+    let current = "";
 
-    for (let i = 1; i < text.length; i++) {
-        result += text[i];
+    for (
+        let i = 0;
+        i < name.length;
+        i++
+    ) {
+        if (
+            name[i] === " " &&
+            current !== ""
+        ) {
+            addToArray(
+                words,
+                current
+            );
+
+            current = "";
+        } else {
+            current += name[i];
+        }
+    }
+
+    if (current !== "") {
+        addToArray(
+            words,
+            current
+        );
+    }
+
+    if (words.length === 1) {
+        return convertToUpperCase(
+            words[0].charAt(0)
+        );
+    }
+
+    let result = "";
+
+    for (
+        let i = 0;
+        i < words.length &&
+        result.length < 2;
+        i++
+    ) {
+        result +=
+            convertToUpperCase(
+                words[i].charAt(0)
+            );
     }
 
     return result;
 }
 
-function getProductInitials(text) {
-    text = String(text || "");
-
-    let initials = "";
-    let takeNext = true;
-
-    for (let i = 0; i < text.length; i++) {
-        const character = text[i];
-
-        if (
-            character === " " ||
-            character === "-" ||
-            character === "_"
-        ) {
-            takeNext = true;
-        } else if (takeNext) {
-            initials += character;
-            takeNext = false;
-
-            if (initials.length === 3) {
-                break;
-            }
-        }
-    }
-
-    return initials;
-}
-
 function searchText(text, search) {
-    text = convertToLowerCase(text);
-    search = convertToLowerCase(search);
+    text = convertToLowerCase(
+        String(text || "")
+    );
+
+    search = convertToLowerCase(
+        String(search || "")
+    );
 
     if (search === "") {
         return true;
     }
 
-    if (search.length > text.length) {
+    if (
+        search.length >
+        text.length
+    ) {
         return false;
     }
 
-    for (let i = 0; i <= text.length - search.length; i++) {
+    for (
+        let i = 0;
+        i <=
+        text.length -
+            search.length;
+        i++
+    ) {
         let match = true;
 
-        for (let j = 0; j < search.length; j++) {
-            if (text[i + j] !== search[j]) {
+        for (
+            let j = 0;
+            j < search.length;
+            j++
+        ) {
+            if (
+                text[i + j] !==
+                search[j]
+            ) {
                 match = false;
                 break;
             }
@@ -455,468 +511,818 @@ function manualDatePart(value) {
 function getDateTime() {
     const now = new Date();
 
-    let month = now.getMonth() + 1;
-    let day = now.getDate();
-    let year = now.getFullYear();
-
-    let hour = now.getHours();
-    let minute = now.getMinutes();
-
-    let suffix = "AM";
-
-    if (hour >= 12) {
-        suffix = "PM";
-    }
-
-    if (hour === 0) {
-        hour = 12;
-    } else if (hour > 12) {
-        hour = hour - 12;
-    }
-
     return (
-        manualDatePart(month) +
+        manualDatePart(
+            now.getMonth() + 1
+        ) +
         "/" +
-        manualDatePart(day) +
+        manualDatePart(
+            now.getDate()
+        ) +
         "/" +
-        year +
+        now.getFullYear() +
         " " +
-        manualDatePart(hour) +
-        ":" +
-        manualDatePart(minute) +
-        " " +
-        suffix
+        now.toLocaleTimeString(
+            "en-PH",
+            {
+                hour: "2-digit",
+                minute: "2-digit"
+            }
+        )
     );
 }
 
-function escapeHTML(value) {
-    const div = document.createElement("div");
+function getDateOnly() {
+    const now = new Date();
 
-    div.textContent =
-        value === null || value === undefined
-            ? ""
-            : String(value);
+    return (
+        manualDatePart(
+            now.getMonth() + 1
+        ) +
+        "/" +
+        manualDatePart(
+            now.getDate()
+        ) +
+        "/" +
+        now.getFullYear()
+    );
+}
 
-    return div.innerHTML;
+const RESTOCK_LEAD_DAYS = 7;
+const MS_PER_DAY = 86400000;
+const FAR_AWAY_DAYS = 365;
+
+const MONTH_NAMES = [
+    "Jan", "Feb", "Mar", "Apr",
+    "May", "Jun", "Jul", "Aug",
+    "Sep", "Oct", "Nov", "Dec"
+];
+
+function parseDateValue(dateValue) {
+    if (!dateValue) {
+        return null;
+    }
+
+    let firstSlash = -1;
+    let secondSlash = -1;
+
+    for (let i = 0; i < dateValue.length; i++) {
+        if (dateValue[i] === "/") {
+            if (firstSlash === -1) {
+                firstSlash = i;
+            } else {
+                secondSlash = i;
+                break;
+            }
+        }
+    }
+
+    if (firstSlash === -1 || secondSlash === -1) {
+        return null;
+    }
+
+    const month = Number(dateValue.substring(0, firstSlash));
+    const day = Number(dateValue.substring(firstSlash + 1, secondSlash));
+    const year = Number(dateValue.substring(secondSlash + 1, secondSlash + 5));
+
+    if (isNaN(month) || isNaN(day) || isNaN(year)) {
+        return null;
+    }
+
+    return new Date(year, month - 1, day);
+}
+
+function makeDateValue(date) {
+    return (
+        manualDatePart(date.getMonth() + 1) +
+        "/" +
+        manualDatePart(date.getDate()) +
+        "/" +
+        date.getFullYear()
+    );
+}
+
+function addDaysToDateValue(dateValue, days) {
+    const date = parseDateValue(dateValue);
+
+    if (!date) {
+        return "";
+    }
+
+    date.setDate(date.getDate() + days);
+
+    return makeDateValue(date);
+}
+
+// Whole days from fromValue to toValue (negative if toValue is earlier).
+function getDaysBetween(fromValue, toValue) {
+    const from = parseDateValue(fromValue);
+    const to = parseDateValue(toValue);
+
+    if (!from || !to) {
+        return 0;
+    }
+
+    let difference = to.getTime() - from.getTime();
+    const negative = difference < 0;
+
+    if (negative) {
+        difference = 0 - difference;
+    }
+
+    // add half a day so a DST shift can never drop a day, then drop the remainder
+    difference = difference + (MS_PER_DAY / 2);
+    const days = (difference - (difference % MS_PER_DAY)) / MS_PER_DAY;
+
+    return negative ? 0 - days : days;
+}
+
+function formatFriendlyDate(dateValue) {
+    const date = parseDateValue(dateValue);
+
+    if (!date) {
+        return "";
+    }
+
+    return (
+        MONTH_NAMES[date.getMonth()] +
+        " " +
+        date.getDate() +
+        ", " +
+        date.getFullYear()
+    );
+}
+
+function describeDaysFromToday(dateValue) {
+    const days = getDaysBetween(getDateOnly(), dateValue);
+
+    if (days === 0) {
+        return "today";
+    }
+
+    if (days === 1) {
+        return "tomorrow";
+    }
+
+    if (days === -1) {
+        return "yesterday";
+    }
+
+    if (days > 0) {
+        return "in " + days + " days";
+    }
+
+    return (0 - days) + " days ago";
+}
+
+// Rounds a positive number up to a whole number without Math.ceil.
+function roundUpWhole(value) {
+    const remainder = value % 1;
+
+    if (remainder > 0) {
+        return value - remainder + 1;
+    }
+
+    return value;
+}
+
+function createRestockTracking(quantity) {
+    return {
+        baseDate: getDateOnly(),
+        baseQty: Number(quantity) || 0,
+        triggeredOn: ""
+    };
+}
+
+function cloneRestockTracking(tracking, quantity) {
+    if (!tracking || !tracking.baseDate) {
+        return createRestockTracking(quantity);
+    }
+
+    return {
+        baseDate: tracking.baseDate,
+        baseQty: Number(tracking.baseQty) || 0,
+        triggeredOn: tracking.triggeredOn || ""
+    };
+}
+
+// Call when stock is increased. Starts a fresh usage baseline.
+function recordVariantRestock(variant, newQuantity) {
+    const today = getDateOnly();
+
+    if (!variant.restockTracking) {
+        variant.restockTracking = createRestockTracking(newQuantity);
+    }
+
+    const threshold =
+        variant.threshold !== undefined
+            ? Number(variant.threshold)
+            : DEFAULT_THRESHOLD;
+
+    variant.lastRestocked = today;
+    variant.restockTracking.baseDate = today;
+    variant.restockTracking.baseQty = newQuantity;
+
+    // still at/below threshold after this delivery: a new order starts now
+    variant.restockTracking.triggeredOn =
+        newQuantity <= threshold ? today : "";
+}
+
+/*
+   Works out the "possible next restock" for one variant.
+   - At/below threshold: supplier delivery is expected
+     RESTOCK_LEAD_DAYS after the day the restock was triggered.
+   - Healthy stock: projects the day stock will reach the threshold from
+     the average daily usage since the last restock, then adds the lead time.
+   - No usage yet: no date is guessed.
+*/
+function refreshRestockDates(variant) {
+    const quantity = Number(variant.quantity) || 0;
+
+    const threshold =
+        variant.threshold !== undefined
+            ? Number(variant.threshold)
+            : DEFAULT_THRESHOLD;
+
+    if (!variant.restockTracking) {
+        variant.restockTracking = createRestockTracking(quantity);
+    }
+
+    const tracking = variant.restockTracking;
+    const today = getDateOnly();
+
+    variant.nextRestock = "";
+    variant.nextRestockType = "unknown";
+    variant.nextRestockNote = "";
+
+    if (quantity <= threshold) {
+        if (!tracking.triggeredOn) {
+            tracking.triggeredOn = today;
+        }
+
+        variant.nextRestock =
+            addDaysToDateValue(tracking.triggeredOn, RESTOCK_LEAD_DAYS);
+
+        variant.nextRestockType = "expected";
+
+        const wait = getDaysBetween(today, variant.nextRestock);
+
+        if (wait < 0) {
+            variant.nextRestockNote =
+                "Overdue by " + (0 - wait) +
+                (wait === -1 ? " day" : " days") +
+                " (ordered " + formatFriendlyDate(tracking.triggeredOn) + ")";
+        } else {
+            variant.nextRestockNote =
+                "Delivery expected " + describeDaysFromToday(variant.nextRestock) +
+                " (ordered " + formatFriendlyDate(tracking.triggeredOn) + ")";
+        }
+
+        return;
+    }
+
+    tracking.triggeredOn = "";
+
+    const elapsed = getDaysBetween(tracking.baseDate, today);
+    const used = tracking.baseQty - quantity;
+
+    if (elapsed < 1 || used < 1) {
+        variant.nextRestockNote = "Not enough usage yet to estimate";
+        return;
+    }
+
+    const perDay = used / elapsed;
+    const daysToThreshold = roundUpWhole((quantity - threshold) / perDay);
+
+    if (daysToThreshold > FAR_AWAY_DAYS) {
+        variant.nextRestockType = "far";
+        variant.nextRestockNote = "Usage is very slow, no restock needed soon";
+        return;
+    }
+
+    variant.nextRestock =
+        addDaysToDateValue(today, daysToThreshold + RESTOCK_LEAD_DAYS);
+
+    variant.nextRestockType = "projected";
+
+    // one decimal place, no toFixed
+    const tenths = (perDay * 10) + 0.5;
+    const rounded = (tenths - (tenths % 1)) / 10;
+
+    variant.nextRestockNote =
+        "Projected from usage of about " + rounded + " per day";
+}
+
+// Copies the display fields of a variant onto its restock record.
+function copyRestockDatesToRecord(record, variant) {
+    record.lastRestocked = variant.lastRestocked || "";
+    record.nextRestock = variant.nextRestock || "";
+    record.nextRestockType = variant.nextRestockType || "unknown";
+    record.nextRestockNote = variant.nextRestockNote || "";
+    record.stockedSince =
+        variant.restockTracking
+            ? variant.restockTracking.baseDate
+            : "";
+}
+
+function escapeHTML(text) {
+    text = String(text || "");
+
+    return text
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
 }
 
 function createCheckboxList(
-    values,
-    groupName,
+    containerId,
+    options,
     selectedValues
 ) {
-    let html = `<div class="variant-options">`;
+    const container =
+        document.getElementById(
+            containerId
+        );
 
-    for (let i = 0; i < values.length; i++) {
-        let checked = "";
+    if (!container) {
+        return;
+    }
 
-        if (containsValue(selectedValues, values[i])) {
-            checked = "checked";
+    container.innerHTML = "";
+
+    for (
+        let i = 0;
+        i < options.length;
+        i++
+    ) {
+        let checked = false;
+
+        if (selectedValues) {
+            for (
+                let j = 0;
+                j < selectedValues.length;
+                j++
+            ) {
+                if (
+                    selectedValues[j] ===
+                    options[i]
+                ) {
+                    checked = true;
+                    break;
+                }
+            }
         }
 
-        html += `
+        container.innerHTML += `
             <label class="variant-option">
                 <input
                     type="checkbox"
-                    name="${groupName}"
-                    value="${escapeHTML(values[i])}"
-                    ${checked}
+                    value="${escapeHTML(options[i])}"
+                    ${checked ? "checked" : ""}
                 >
-                <span>${escapeHTML(values[i])}</span>
+                <span>${escapeHTML(options[i])}</span>
             </label>
         `;
     }
-
-    html += `</div>`;
-
-    return html;
 }
 
-function getCheckedValues(name) {
-    const checked =
-        document.querySelectorAll(
-            `input[name="${name}"]:checked`
+function getCheckedValues(
+    containerId
+) {
+    const container =
+        document.getElementById(
+            containerId
         );
 
     const values = [];
 
-    for (let i = 0; i < checked.length; i++) {
-        addToArray(
-            values,
-            checked[i].value
+    if (!container) {
+        return values;
+    }
+
+    const inputs =
+        container.querySelectorAll(
+            "input[type='checkbox']"
         );
+
+    for (
+        let i = 0;
+        i < inputs.length;
+        i++
+    ) {
+        if (inputs[i].checked) {
+            addToArray(
+                values,
+                inputs[i].value
+            );
+        }
     }
 
     return values;
 }
 
 function getVariantRule(
-    categoryName,
-    productName
+    selectedCategory
 ) {
-    if (categoryName === "Bags") {
-        return {
-            sizes: false,
-            colors: true,
-            scents: false,
-            fixedColor: false
-        };
-    }
-
-    if (categoryName === "Perfumes") {
-        return {
-            sizes: false,
-            colors: false,
-            scents: true,
-            fixedColor: false
-        };
-    }
-
-    if (categoryName === "Body Care Products") {
-        return {
-            sizes: false,
-            colors: false,
-            scents: false,
-            fixedColor: false
-        };
-    }
-
-    const lowerName =
-        convertToLowerCase(productName);
-
     if (
-        categoryName === "Clothing" &&
-        searchText(
-            lowerName,
-            "basic chic01 terno"
-        )
+        selectedCategory ===
+        "Clothing"
     ) {
-        return {
-            sizes: true,
-            colors: false,
-            scents: false,
-            fixedColor: true
-        };
+        return "clothing";
     }
 
     if (
-        categoryName === "Clothing" &&
-        searchText(
-            lowerName,
-            "sami t-shirt"
-        )
+        selectedCategory ===
+        "Perfumes"
     ) {
-        return {
-            sizes: false,
-            colors: true,
-            scents: false,
-            fixedColor: false
-        };
+        return "perfume";
     }
 
-    if (categoryName === "Clothing") {
-        return {
-            sizes: true,
-            colors: true,
-            scents: false,
-            fixedColor: false
-        };
+    if (
+        selectedCategory ===
+        "Body Care Products"
+    ) {
+        return "body";
     }
 
-    return {
-        sizes: false,
-        colors: false,
-        scents: false,
-        fixedColor: false
-    };
+    if (
+        selectedCategory ===
+        "Bags"
+    ) {
+        return "bag";
+    }
+
+    return "";
 }
 
 function updateVariantFields(
-    preserveCurrent = false
+    keepValues
 ) {
-    if (!category || !sizeGroup || !colorGroup) {
+    const selectedCategory =
+        category
+            ? category.value
+            : "";
+
+    const sizeGroup =
+        document.getElementById(
+            "sizeGroup"
+        );
+
+    const colorGroupElement =
+        document.getElementById(
+            "colorGroup"
+        );
+
+    const scentGroup =
+        document.getElementById(
+            "scentGroup"
+        );
+
+    if (!sizeGroup ||
+        !colorGroupElement ||
+        !scentGroup
+    ) {
         return;
     }
 
-    const selectedCategory =
-        category.value;
-
-    const nameInput =
-        document.getElementById(
-            "productName"
-        );
-
-    const productName =
-        nameInput
-            ? manualTrim(nameInput.value)
-            : "";
-
-    let currentSizes = [];
-    let currentColors = [];
-    let currentScents = [];
-
-    if (preserveCurrent) {
-        currentSizes =
-            getCheckedValues(
-                "productSize"
-            );
-
-        currentColors =
-            getCheckedValues(
-                "productColor"
-            );
-
-        currentScents =
-            getCheckedValues(
-                "productScent"
-            );
-
-        const customColor =
-            document.getElementById(
-                "customColor"
-            );
-
-        if (
-            customColor &&
-            manualTrim(customColor.value) !== ""
-        ) {
-            addToArray(
-                currentColors,
-                manualTrim(customColor.value)
-            );
-        }
-    } else if (
-        editingIndex >= 0 &&
-        products[editingIndex]
+    if (
+        selectedCategory ===
+        "Clothing"
     ) {
-        currentSizes =
-            products[editingIndex].sizes || [];
+        sizeGroup.style.display =
+            "block";
 
-        currentColors =
-            products[editingIndex].colors || [];
+        colorGroupElement.style.display =
+            "block";
 
-        currentScents =
-            products[editingIndex].scents || [];
-    }
+        scentGroup.style.display =
+            "none";
 
-    const rule =
-        getVariantRule(
-            selectedCategory,
-            productName
+        createCheckboxList(
+            "sizeOptions",
+            SIZE_OPTIONS,
+            keepValues
+                ? getCheckedValues(
+                    "sizeOptions"
+                )
+                : []
         );
 
-    sizeGroup.innerHTML = "";
-    colorGroup.innerHTML = "";
-
-    if (scentGroup) {
-        scentGroup.innerHTML = "";
-        scentGroup.style.display = "none";
-    }
-
-    if (rule.sizes) {
-        sizeGroup.style.display = "block";
-
-        sizeGroup.innerHTML = `
-            <label>Size</label>
-            ${createCheckboxList(
-                SIZE_OPTIONS,
-                "productSize",
-                currentSizes
-            )}
-        `;
-    } else {
-        sizeGroup.style.display = "none";
-    }
-
-    if (rule.colors) {
-        colorGroup.style.display = "block";
-
-        colorGroup.innerHTML = `
-            <label>Color</label>
-            ${createCheckboxList(
-                CLOTHING_COLOR_OPTIONS,
-                "productColor",
-                currentColors
-            )}
-
-            <input
-                type="text"
-                id="customColor"
-                placeholder="Add another color"
-            >
-        `;
-
-        const customColor =
-            document.getElementById(
-                "customColor"
-            );
-
-        let customValues = [];
-
-        for (
-            let i = 0;
-            i < currentColors.length;
-            i++
-        ) {
-            if (
-                !containsValue(
-                    CLOTHING_COLOR_OPTIONS,
-                    currentColors[i]
+        createCheckboxList(
+            "colorOptions",
+            CLOTHING_COLOR_OPTIONS,
+            keepValues
+                ? getCheckedValues(
+                    "colorOptions"
                 )
-            ) {
-                addToArray(
-                    customValues,
-                    currentColors[i]
-                );
-            }
+                : []
+        );
+
+    } else if (
+        selectedCategory ===
+        "Bags"
+    ) {
+        sizeGroup.style.display =
+            "none";
+
+        colorGroupElement.style.display =
+            "block";
+
+        scentGroup.style.display =
+            "none";
+
+        createCheckboxList(
+            "colorOptions",
+            [
+                "Black",
+                "White",
+                "Brown",
+                "Tan",
+                "Red",
+                "Green",
+                "Blue",
+                "Dark Blue",
+                "Grayish Blue",
+                "Blue Stripes",
+                "Tan Taupe",
+                "Tan Taupe Two",
+                "Clay Two",
+                "Dark Brown"
+            ],
+            keepValues
+                ? getCheckedValues(
+                    "colorOptions"
+                )
+                : []
+        );
+
+        document.getElementById(
+            "sizeOptions"
+        ).innerHTML = "";
+
+    } else if (
+        selectedCategory ===
+        "Perfumes"
+    ) {
+        sizeGroup.style.display =
+            "none";
+
+        colorGroupElement.style.display =
+            "none";
+
+        scentGroup.style.display =
+            "block";
+
+        document.getElementById(
+            "sizeOptions"
+        ).innerHTML = "";
+
+        document.getElementById(
+            "colorOptions"
+        ).innerHTML = "";
+
+    } else {
+        sizeGroup.style.display =
+            "none";
+
+        colorGroupElement.style.display =
+            "none";
+
+        scentGroup.style.display =
+            "none";
+
+        document.getElementById(
+            "sizeOptions"
+        ).innerHTML = "";
+
+        document.getElementById(
+            "colorOptions"
+        ).innerHTML = "";
+    }
+
+    // manual entries never carry over between products or categories
+    if (!keepValues) {
+        resetManualEntries();
+    }
+
+    const variantHint = document.getElementById("variantHint");
+
+    if (variantHint) {
+        variantHint.style.display =
+            selectedCategory === "" ? "block" : "none";
+    }
+}
+
+// Combines two lists into a new one, skipping repeats (ignores upper/lower case).
+function joinUnique(first, second) {
+    const result = [];
+
+    for (let i = 0; i < first.length; i++) {
+        addToArray(result, first[i]);
+    }
+
+    for (let i = 0; i < second.length; i++) {
+        if (findIgnoreCase(result, second[i]) === -1) {
+            addToArray(result, second[i]);
+        }
+    }
+
+    return result;
+}
+
+function getManualList(type) {
+    return type === "scent" ? manualScents : manualColors;
+}
+
+function getManualPrefix(type) {
+    return type === "scent" ? "manualScent" : "manualColor";
+}
+
+function findIgnoreCase(list, value) {
+    const wanted = convertToLowerCase(value);
+
+    for (let i = 0; i < list.length; i++) {
+        if (convertToLowerCase(list[i]) === wanted) {
+            return i;
+        }
+    }
+
+    return -1;
+}
+
+function renderManualChips(type) {
+    const box = document.getElementById(getManualPrefix(type) + "Chips");
+    const list = getManualList(type);
+
+    if (!box) {
+        return;
+    }
+
+    let html = "";
+
+    for (let i = 0; i < list.length; i++) {
+        html += `
+            <span class="manual-chip">
+                ${escapeHTML(list[i])}
+                <button
+                    type="button"
+                    aria-label="Remove ${escapeHTML(list[i])}"
+                    onclick="removeManualValue('${type}', ${i})">×</button>
+            </span>
+        `;
+    }
+
+    box.innerHTML = html;
+}
+
+function resetManualEntries() {
+    manualColors = [];
+    manualScents = [];
+
+    const types = ["color", "scent"];
+
+    for (let i = 0; i < types.length; i++) {
+        const input = document.getElementById(getManualPrefix(types[i]));
+
+        if (input) {
+            input.value = "";
         }
 
-        if (
-            customColor &&
-            customValues.length > 0
-        ) {
-            let customText = "";
+        clearFieldError(getManualPrefix(types[i]));
+        renderManualChips(types[i]);
+    }
+}
 
-            for (
-                let i = 0;
-                i < customValues.length;
-                i++
-            ) {
-                if (i > 0) {
-                    customText += ", ";
+// Adds whatever is typed in the box (comma separated values are allowed).
+// A color that matches one of the basic colors just ticks that box instead.
+function addManualValue(type) {
+    const prefix = getManualPrefix(type);
+    const input = document.getElementById(prefix);
+
+    if (!input) {
+        return;
+    }
+
+    const values = parseCommaValues(input.value);
+    const noun = type === "scent" ? "scent" : "color";
+
+    if (values.length === 0) {
+        setFieldError(prefix, "Type a " + noun + " first.");
+        input.focus();
+        return;
+    }
+
+    const list = getManualList(type);
+    const skipped = [];
+
+    for (let i = 0; i < values.length; i++) {
+        const value = values[i];
+
+        if (findIgnoreCase(list, value) !== -1) {
+            addToArray(skipped, value);
+            continue;
+        }
+
+        if (type === "color") {
+            const boxes = document.querySelectorAll("#colorOptions input[type='checkbox']");
+            let matched = null;
+
+            for (let j = 0; j < boxes.length; j++) {
+                if (convertToLowerCase(boxes[j].value) === convertToLowerCase(value)) {
+                    matched = boxes[j];
+                    break;
+                }
+            }
+
+            if (matched) {
+                if (matched.checked) {
+                    addToArray(skipped, value);
+                } else {
+                    matched.checked = true;
                 }
 
-                customText +=
-                    customValues[i];
+                continue;
             }
-
-            customColor.value =
-                customText;
         }
-    } else if (rule.fixedColor) {
-        colorGroup.style.display = "block";
 
-        colorGroup.innerHTML = `
-            <label>Color</label>
-            <div class="variant-note">
-                Fixed Color
-            </div>
-        `;
-    } else {
-        colorGroup.style.display = "none";
+        addToArray(list, value);
     }
 
-    if (rule.scents && scentGroup) {
-        scentGroup.style.display = "block";
+    renderManualChips(type);
 
-        const scentOptions = [
-            "Bare Vanilla",
-            "Aqua Kiss",
-            "Vanilla Lace",
-            "Midnight Bloom",
-            "Love Spell",
-            "Pure Seduction",
-            "Velvet Petals",
-            "Pure Wonder",
-            "Hello Beautiful",
-            "A Thousand Wishes",
-            "You're The One",
-            "Vanilla Ease",
-            "Chanel N'5",
-            "Lattafa YARA"
-        ];
+    if (skipped.length > 0) {
+        let names = "";
 
-        scentGroup.innerHTML = `
-            <label>Scent</label>
-            ${createCheckboxList(
-                scentOptions,
-                "productScent",
-                currentScents
-            )}
-
-            <input
-                type="text"
-                id="customScent"
-                placeholder="Add another scent"
-            >
-        `;
-
-        const customScent =
-            document.getElementById(
-                "customScent"
-            );
-
-        let customScents = [];
-
-        for (
-            let i = 0;
-            i < currentScents.length;
-            i++
-        ) {
-            if (
-                !containsValue(
-                    scentOptions,
-                    currentScents[i]
-                )
-            ) {
-                addToArray(
-                    customScents,
-                    currentScents[i]
-                );
+        for (let i = 0; i < skipped.length; i++) {
+            if (i > 0) {
+                names += ", ";
             }
+
+            names += skipped[i];
         }
 
-        if (
-            customScent &&
-            customScents.length > 0
-        ) {
-            let customText = "";
+        setFieldError(prefix, names + " is already added.");
+        input.value = names;
+    } else {
+        input.value = "";
+        clearFieldError(prefix);
+    }
 
-            for (
-                let i = 0;
-                i < customScents.length;
-                i++
-            ) {
-                if (i > 0) {
-                    customText += ", ";
-                }
+    input.focus();
+}
 
-                customText +=
-                    customScents[i];
-            }
+function manualEntryKey(event, type) {
+    if (event.key === "Enter") {
+        event.preventDefault();
+        addManualValue(type);
+    }
+}
 
-            customScent.value =
-                customText;
+function removeManualValue(type, index) {
+    removeFromArray(getManualList(type), index);
+    renderManualChips(type);
+}
+
+// Anything still typed but not added yet is added when the form is saved.
+function addPendingManualValues() {
+    const types = ["color", "scent"];
+
+    for (let i = 0; i < types.length; i++) {
+        const input = document.getElementById(getManualPrefix(types[i]));
+
+        if (input && manualTrim(input.value) !== "") {
+            addManualValue(types[i]);
         }
     }
 }
 
-function parseCommaValues(value) {
-    if (!value) {
-        return [];
-    }
-
+function parseCommaValues(
+    value
+) {
     const result = [];
     let current = "";
 
-    for (let i = 0; i <= value.length; i++) {
+    value = String(value || "");
+
+    for (
+        let i = 0;
+        i < value.length;
+        i++
+    ) {
         if (
-            i === value.length ||
             value[i] === ","
         ) {
-            const cleaned =
-                manualTrim(current);
+            current =
+                manualTrim(
+                    current
+                );
 
-            if (
-                cleaned !== "" &&
-                !containsValue(
-                    result,
-                    cleaned
-                )
-            ) {
+            if (current !== "") {
                 addToArray(
                     result,
-                    cleaned
+                    current
                 );
             }
 
@@ -926,181 +1332,78 @@ function parseCommaValues(value) {
         }
     }
 
+    current =
+        manualTrim(current);
+
+    if (current !== "") {
+        addToArray(
+            result,
+            current
+        );
+    }
+
     return result;
 }
 
-function getProductVariantValues() {
-    const selectedCategory =
-        category.value;
-
-    let sizes = [];
-    let colors = [];
-    let scents = [];
-
-    const productNameInput =
-        document.getElementById(
-            "productName"
-        );
-
-    const productName =
-        productNameInput
-            ? manualTrim(
-                productNameInput.value
-            )
-            : "";
-
-    const rule =
-        getVariantRule(
-            selectedCategory,
-            productName
-        );
-
-    if (rule.sizes) {
-        sizes =
-            getCheckedValues(
-                "productSize"
-            );
-    }
-
-    if (rule.colors) {
-        colors =
-            getCheckedValues(
-                "productColor"
-            );
-
-        const customColor =
-            document.getElementById(
-                "customColor"
-            );
-
-        if (customColor) {
-            const customColors =
-                parseCommaValues(
-                    customColor.value
-                );
-
-            for (
-                let i = 0;
-                i < customColors.length;
-                i++
-            ) {
-                if (
-                    !containsValue(
-                        colors,
-                        customColors[i]
-                    )
-                ) {
-                    addToArray(
-                        colors,
-                        customColors[i]
-                    );
-                }
-            }
-        }
-    }
-
-    if (rule.fixedColor) {
-        colors = ["Fixed Color"];
-    }
-
-    if (rule.scents) {
-        scents =
-            getCheckedValues(
-                "productScent"
-            );
-
-        const customScent =
-            document.getElementById(
-                "customScent"
-            );
-
-        if (customScent) {
-            const customScents =
-                parseCommaValues(
-                    customScent.value
-                );
-
-            for (
-                let i = 0;
-                i < customScents.length;
-                i++
-            ) {
-                if (
-                    !containsValue(
-                        scents,
-                        customScents[i]
-                    )
-                ) {
-                    addToArray(
-                        scents,
-                        customScents[i]
-                    );
-                }
-            }
-        }
-    }
-
-    return {
-        sizes: sizes,
-        colors: colors,
-        scents: scents
-    };
-}
-
-function getVariantList(product) {
-    const variants = [];
-
-    const sizes =
+function getProductVariantValues(
+    product
+) {
+    let sizes =
         product.sizes || [];
 
-    const colors =
+    let colors =
         product.colors || [];
 
-    const scents =
+    let scents =
         product.scents || [];
 
     if (
-        colors.length > 0 &&
-        sizes.length > 0
+        sizes.length === 0 &&
+        colors.length === 0 &&
+        scents.length === 0
+    ) {
+        return [
+            {
+                size: "",
+                color: "",
+                scent: ""
+            }
+        ];
+    }
+
+    const variants = [];
+
+    if (
+        sizes.length > 0 &&
+        colors.length > 0
     ) {
         for (
             let i = 0;
-            i < colors.length;
+            i < sizes.length;
             i++
         ) {
             for (
                 let j = 0;
-                j < sizes.length;
+                j < colors.length;
                 j++
             ) {
                 addToArray(
                     variants,
                     {
-                        type: "color-size",
-                        color: colors[i],
-                        size: sizes[j],
+                        size:
+                            sizes[i],
+                        color:
+                            colors[j],
                         scent: ""
                     }
                 );
             }
         }
-    } else if (colors.length > 0) {
-        for (
-            let i = 0;
-            i < colors.length;
-            i++
-        ) {
-            addToArray(
-                variants,
-                {
-                    type: "color",
-                    color: colors[i],
-                    size: "",
-                    scent: ""
-                }
-            );
-        }
-    } else if (sizes.length > 0) {
+
+        return variants;
+    }
+
+    if (sizes.length > 0) {
         for (
             let i = 0;
             i < sizes.length;
@@ -1109,37 +1412,49 @@ function getVariantList(product) {
             addToArray(
                 variants,
                 {
-                    type: "size",
+                    size:
+                        sizes[i],
                     color: "",
-                    size: sizes[i],
                     scent: ""
                 }
             );
         }
-    } else if (scents.length > 0) {
+
+        return variants;
+    }
+
+    if (colors.length > 0) {
         for (
             let i = 0;
-            i < scents.length;
+            i < colors.length;
             i++
         ) {
             addToArray(
                 variants,
                 {
-                    type: "scent",
-                    color: "",
                     size: "",
-                    scent: scents[i]
+                    color:
+                        colors[i],
+                    scent: ""
                 }
             );
         }
-    } else {
+
+        return variants;
+    }
+
+    for (
+        let i = 0;
+        i < scents.length;
+        i++
+    ) {
         addToArray(
             variants,
             {
-                type: "product",
-                color: "",
                 size: "",
-                scent: ""
+                color: "",
+                scent:
+                    scents[i]
             }
         );
     }
@@ -1147,33 +1462,54 @@ function getVariantList(product) {
     return variants;
 }
 
-function getVariantKey(variant) {
-    let key = "";
-
-    key += variant.color || "";
-    key += "|";
-    key += variant.size || "";
-    key += "|";
-    key += variant.scent || "";
-
-    return key;
+function getVariantList(
+    product
+) {
+    return getProductVariantValues(
+        product
+    );
 }
 
-function getInitialVariantStock(index) {
-    return INITIAL_STOCK_VALUES[
-        index % INITIAL_STOCK_VALUES.length
-    ];
+function getVariantKey(
+    variant
+) {
+    return (
+        (variant.color || "") +
+        "|" +
+        (variant.size || "") +
+        "|" +
+        (variant.scent || "")
+    );
 }
 
-function findInventoryByProductId(productId) {
+function getInitialVariantStock(
+    productIndex
+) {
+    if (
+        productIndex <
+        INITIAL_STOCK_VALUES.length
+    ) {
+        return INITIAL_STOCK_VALUES[
+            productIndex
+        ];
+    }
+
+    return 10;
+}
+
+function findInventoryByProductId(
+    productId
+) {
     for (
         let i = 0;
         i < inventory.length;
         i++
     ) {
         if (
-            inventory[i].productId ===
-            productId
+            String(
+                inventory[i].productId
+            ) ===
+            String(productId)
         ) {
             return inventory[i];
         }
@@ -1182,15 +1518,19 @@ function findInventoryByProductId(productId) {
     return null;
 }
 
-function findProductById(productId) {
+function findProductById(
+    productId
+) {
     for (
         let i = 0;
         i < products.length;
         i++
     ) {
         if (
-            products[i].id ===
-            productId
+            String(
+                products[i].id
+            ) ===
+            String(productId)
         ) {
             return products[i];
         }
@@ -1209,9 +1549,7 @@ function findVariantByKey(
         i++
     ) {
         if (
-            getVariantKey(
-                variants[i]
-            ) === key
+            variants[i].key === key
         ) {
             return variants[i];
         }
@@ -1224,15 +1562,6 @@ function createInventoryRecord(
     product,
     productIndex
 ) {
-    const existing =
-        findInventoryByProductId(
-            product.id
-        );
-
-    if (existing) {
-        return existing;
-    }
-
     const variants =
         getVariantList(product);
 
@@ -1257,13 +1586,16 @@ function createInventoryRecord(
                     ),
 
                 color:
-                    variants[i].color || "",
+                    variants[i].color ||
+                    "",
 
                 size:
-                    variants[i].size || "",
+                    variants[i].size ||
+                    "",
 
                 scent:
-                    variants[i].scent || "",
+                    variants[i].scent ||
+                    "",
 
                 quantity:
                     getInitialVariantStock(
@@ -1271,52 +1603,71 @@ function createInventoryRecord(
                     ),
 
                 threshold:
-                    DEFAULT_THRESHOLD
+                    DEFAULT_THRESHOLD,
+
+                lastRestocked:
+                    "",
+
+                nextRestock:
+                    "",
+
+                nextRestockType:
+                    "unknown",
+
+                nextRestockNote:
+                    "",
+
+                restockTracking:
+                    createRestockTracking(
+                        getInitialVariantStock(
+                            productIndex + i
+                        )
+                    )
             }
         );
     }
 
-    const record = {
-        id:
-            Date.now() +
-            Math.random(),
-
-        productId:
-            product.id,
-
-        productCode:
-            product.code,
-
-        name:
-            product.name,
-
-        category:
-            product.category,
-
-        image:
-            product.image,
-
-        variants:
-            inventoryVariants
-    };
-
     addToArray(
         inventory,
-        record
-    );
+        {
+            id:
+                Date.now() +
+                Math.random(),
 
-    return record;
+            productId:
+                product.id,
+
+            productCode:
+                product.code,
+
+            name:
+                product.name,
+
+            category:
+                product.category,
+
+            image:
+                product.image,
+
+            variants:
+                inventoryVariants
+        }
+    );
 }
 
-function getProductIndex(product) {
+function getProductIndex(
+    productId
+) {
     for (
         let i = 0;
         i < products.length;
         i++
     ) {
         if (
-            products[i].id ===
-            product.id
+            String(
+                products[i].id
+            ) ===
+            String(productId)
         ) {
             return i;
         }
@@ -1325,19 +1676,138 @@ function getProductIndex(product) {
     return -1;
 }
 
-function updateInventoryProduct(product) {
+function updateInventoryProduct(
+    product
+) {
     const item =
         findInventoryByProductId(
             product.id
         );
 
     if (!item) {
+        const productIndex =
+            getProductIndex(
+                product.id
+            );
+
         createInventoryRecord(
             product,
-            getProductIndex(product)
+            productIndex < 0
+                ? 0
+                : productIndex
         );
 
         return;
+    }
+
+    const oldVariants =
+        item.variants || [];
+
+    const newVariants =
+        getVariantList(product);
+
+    const updatedVariants = [];
+
+    for (
+        let i = 0;
+        i < newVariants.length;
+        i++
+    ) {
+        const newVariant =
+            newVariants[i];
+
+        const key =
+            getVariantKey(
+                newVariant
+            );
+
+        const oldVariant =
+            findVariantByKey(
+                oldVariants,
+                key
+            );
+
+        let quantity =
+            getInitialVariantStock(
+                i
+            );
+
+        let threshold =
+            DEFAULT_THRESHOLD;
+
+        let lastRestocked = "";
+        let nextRestock = "";
+        let restockTracking = null;
+
+        if (oldVariant) {
+            quantity =
+                Number(
+                    oldVariant.quantity
+                ) || 0;
+
+            threshold =
+                oldVariant.threshold !==
+                undefined
+                    ? Number(
+                        oldVariant.threshold
+                    )
+                    : DEFAULT_THRESHOLD;
+
+            lastRestocked =
+                oldVariant.lastRestocked ||
+                "";
+
+            nextRestock =
+                oldVariant.nextRestock ||
+                "";
+
+            restockTracking =
+                oldVariant.restockTracking ||
+                null;
+        }
+
+        addToArray(
+            updatedVariants,
+            {
+                id:
+                    product.id +
+                    "-V" +
+                    (i + 1),
+
+                key:
+                    key,
+
+                color:
+                    newVariant.color ||
+                    "",
+
+                size:
+                    newVariant.size ||
+                    "",
+
+                scent:
+                    newVariant.scent ||
+                    "",
+
+                quantity:
+                    quantity,
+
+                threshold:
+                    threshold,
+
+                lastRestocked:
+                    lastRestocked,
+
+                nextRestock:
+                    nextRestock,
+
+                restockTracking:
+                    cloneRestockTracking(
+                        restockTracking,
+                        quantity
+                    )
+            }
+        );
     }
 
     item.productCode =
@@ -1352,88 +1822,8 @@ function updateInventoryProduct(product) {
     item.image =
         product.image;
 
-    const oldVariants =
-        item.variants || [];
-
-    const newVariants =
-        getVariantList(product);
-
-    const newInventoryVariants = [];
-
-    for (
-        let i = 0;
-        i < newVariants.length;
-        i++
-    ) {
-        const newVariant =
-            newVariants[i];
-
-        const oldVariant =
-            findVariantByKey(
-                oldVariants,
-                getVariantKey(
-                    newVariant
-                )
-            );
-
-        let quantity =
-            getInitialVariantStock(i);
-
-        let threshold =
-            DEFAULT_THRESHOLD;
-
-        if (oldVariant) {
-            quantity =
-                Number(
-                    oldVariant.quantity
-                );
-
-            if (
-                oldVariant.threshold !==
-                undefined
-            ) {
-                threshold =
-                    Number(
-                        oldVariant.threshold
-                    );
-            }
-        }
-
-        addToArray(
-            newInventoryVariants,
-            {
-                id:
-                    product.id +
-                    "-V" +
-                    (i + 1),
-
-                key:
-                    getVariantKey(
-                        newVariant
-                    ),
-
-                color:
-                    newVariant.color || "",
-
-                size:
-                    newVariant.size || "",
-
-                scent:
-                    newVariant.scent || "",
-
-                quantity:
-                    quantity,
-
-                threshold:
-                    threshold
-            }
-        );
-    }
-
     item.variants =
-        newInventoryVariants;
-
-    checkAutomaticRestock();
+        updatedVariants;
 }
 
 function getInventoryRecord(
@@ -1444,7 +1834,9 @@ function getInventoryRecord(
     );
 }
 
-function getTotalStock(item) {
+function getTotalStock(
+    item
+) {
     let total = 0;
 
     const variants =
@@ -1455,53 +1847,49 @@ function getTotalStock(item) {
         i < variants.length;
         i++
     ) {
-        let value =
+        total +=
             Number(
                 variants[i].quantity
-            );
-
-        if (value !== value) {
-            value = 0;
-        }
-
-        total += value;
+            ) || 0;
     }
 
     return total;
 }
 
-function getVariantLabel(variant) {
-    let result = "";
-    let count = 0;
+function getVariantLabel(
+    variant
+) {
+    let label = "";
 
     if (variant.color) {
-        result += variant.color;
-        count++;
+        label +=
+            variant.color;
     }
 
     if (variant.size) {
-        if (count > 0) {
-            result += " / ";
+        if (label !== "") {
+            label += " / ";
         }
 
-        result += variant.size;
-        count++;
+        label +=
+            "Size " +
+            variant.size;
     }
 
     if (variant.scent) {
-        if (count > 0) {
-            result += " / ";
+        if (label !== "") {
+            label += " / ";
         }
 
-        result += variant.scent;
-        count++;
+        label +=
+            variant.scent;
     }
 
-    if (count === 0) {
-        return "General Stock";
+    if (label === "") {
+        return "Standard";
     }
 
-    return result;
+    return label;
 }
 
 function removeInventoryRecord(
@@ -1513,8 +1901,10 @@ function removeInventoryRecord(
         i--
     ) {
         if (
-            inventory[i].productId ===
-            productId
+            String(
+                inventory[i].productId
+            ) ===
+            String(productId)
         ) {
             removeFromArray(
                 inventory,
@@ -1524,13 +1914,16 @@ function removeInventoryRecord(
     }
 
     for (
-        let i = restockRecords.length - 1;
+        let i =
+            restockRecords.length - 1;
         i >= 0;
         i--
     ) {
         if (
-            restockRecords[i].productId ===
-            productId
+            String(
+                restockRecords[i].productId
+            ) ===
+            String(productId)
         ) {
             removeFromArray(
                 restockRecords,
@@ -1545,55 +1938,51 @@ function addAuditRecord(
     action,
     changes
 ) {
+    const record = {
+        date:
+            getDateTime(),
+
+        user:
+            "Administrator",
+
+        productCode:
+            product.code,
+
+        productName:
+            product.name,
+
+        action:
+            action,
+
+        changes:
+            changes
+    };
+
     addToFront(
         auditRecords,
-        {
-            date:
-                getDateTime(),
-
-            user:
-                "Administrator",
-
-            productCode:
-                product.code,
-
-            productName:
-                product.name,
-
-            action:
-                action,
-
-            changes:
-                changes
-        }
+        record
     );
 }
 
 function arraysAreEqual(
-    oldArray,
-    newArray
+    first,
+    second
 ) {
-    oldArray =
-        oldArray || [];
-
-    newArray =
-        newArray || [];
-
     if (
-        oldArray.length !==
-        newArray.length
+        first.length !==
+        second.length
     ) {
         return false;
     }
 
     for (
         let i = 0;
-        i < oldArray.length;
+        i < first.length;
         i++
     ) {
         if (
-            oldArray[i] !==
-            newArray[i]
+            first[i] !==
+            second[i]
         ) {
             return false;
         }
@@ -1603,711 +1992,944 @@ function arraysAreEqual(
 }
 
 function compareArrays(
-    oldArray,
-    newArray,
-    label
+    first,
+    second
 ) {
     if (
-        !arraysAreEqual(
-            oldArray,
-            newArray
+        arraysAreEqual(
+            first,
+            second
         )
     ) {
-        return label + " updated";
+        return true;
     }
 
-    return "";
+    return false;
 }
 
-function formatPrice(value) {
-    let number =
-        Number(value);
+// Rounds to a whole number without Math.round.
+function roundToWhole(value) {
+    let number = Number(value) || 0;
 
-    if (number !== number) {
-        number = 0;
+    if (number < 0) {
+        return 0;
     }
 
-    let whole =
-        Math.floor(number);
+    number = number + 0.5;
 
-    let decimal =
-        Math.round(
-            (number - whole) * 100
-        );
+    return number - (number % 1);
+}
 
-    if (decimal >= 100) {
-        whole++;
-        decimal = 0;
+// 1250 -> "1,250" (whole pesos only)
+function formatPrice(price) {
+    const digits = String(roundToWhole(price));
+
+    let result = "";
+    let count = 0;
+
+    for (let i = digits.length - 1; i >= 0; i--) {
+        if (count > 0 && count % 3 === 0) {
+            result = "," + result;
+        }
+
+        result = digits.charAt(i) + result;
+        count++;
     }
 
-    let wholeText =
-        String(whole);
+    return result;
+}
 
-    let formattedWhole = "";
+// Compares two lists and reports what was added and what was removed.
+function getListChange(label, oldList, newList) {
+    oldList = oldList || [];
+    newList = newList || [];
 
-    let counter = 0;
+    if (arraysAreEqual(oldList, newList)) {
+        return null;
+    }
 
-    for (
-        let i = wholeText.length - 1;
-        i >= 0;
-        i--
-    ) {
-        formattedWhole =
-            wholeText[i] +
-            formattedWhole;
+    const added = [];
+    const removed = [];
 
-        counter++;
-
-        if (
-            counter === 3 &&
-            i > 0
-        ) {
-            formattedWhole =
-                "," +
-                formattedWhole;
-
-            counter = 0;
+    for (let i = 0; i < newList.length; i++) {
+        if (!containsValue(oldList, newList[i]) && !containsValue(added, newList[i])) {
+            addToArray(added, newList[i]);
         }
     }
 
-    let decimalText =
-        decimal < 10
-            ? "0" + decimal
-            : String(decimal);
+    for (let i = 0; i < oldList.length; i++) {
+        if (!containsValue(newList, oldList[i]) && !containsValue(removed, oldList[i])) {
+            addToArray(removed, oldList[i]);
+        }
+    }
 
-    return (
-        formattedWhole +
-        "." +
-        decimalText
-    );
+    if (added.length === 0 && removed.length === 0) {
+        return { label: label, text: "Order changed" };
+    }
+
+    return { label: label, added: added, removed: removed };
 }
 
-function getProductChanges(
-    oldProduct,
-    newProduct
-) {
+// Returns a list of change objects:
+//   { label, from, to }            for single values
+//   { label, added, removed }      for sizes / colors / scents
+//   { label, text }                for anything else
+function getProductChanges(oldProduct, newProduct) {
     const changes = [];
 
-    if (
-        oldProduct.code !==
-        newProduct.code
-    ) {
-        addToArray(
-            changes,
-            "Code changed from " +
-            oldProduct.code +
-            " to " +
-            newProduct.code
-        );
+    if (oldProduct.code !== newProduct.code) {
+        addToArray(changes, {
+            label: "Code",
+            from: oldProduct.code,
+            to: newProduct.code
+        });
     }
 
-    if (
-        oldProduct.name !==
-        newProduct.name
-    ) {
-        addToArray(
-            changes,
-            "Name changed from " +
-            oldProduct.name +
-            " to " +
-            newProduct.name
-        );
+    if (oldProduct.name !== newProduct.name) {
+        addToArray(changes, {
+            label: "Name",
+            from: oldProduct.name,
+            to: newProduct.name
+        });
     }
 
-    if (
-        oldProduct.category !==
-        newProduct.category
-    ) {
-        addToArray(
-            changes,
-            "Category changed from " +
-            oldProduct.category +
-            " to " +
-            newProduct.category
-        );
+    if (oldProduct.category !== newProduct.category) {
+        addToArray(changes, {
+            label: "Category",
+            from: oldProduct.category,
+            to: newProduct.category
+        });
     }
 
-    if (
-        Number(oldProduct.price) !==
-        Number(newProduct.price)
-    ) {
-        addToArray(
-            changes,
-            "Price changed from ₱" +
-            formatPrice(
-                oldProduct.price
-            ) +
-            " to ₱" +
-            formatPrice(
-                newProduct.price
-            )
-        );
+    if (Number(oldProduct.price) !== Number(newProduct.price)) {
+        addToArray(changes, {
+            label: "Price",
+            from: "₱" + formatPrice(oldProduct.price),
+            to: "₱" + formatPrice(newProduct.price)
+        });
     }
 
-    const sizeChange =
-        compareArrays(
-            oldProduct.sizes,
-            newProduct.sizes,
-            "Sizes"
-        );
+    const listLabels = ["Sizes", "Colors", "Scents"];
+    const oldLists = [oldProduct.sizes, oldProduct.colors, oldProduct.scents];
+    const newLists = [newProduct.sizes, newProduct.colors, newProduct.scents];
 
-    const colorChange =
-        compareArrays(
-            oldProduct.colors,
-            newProduct.colors,
-            "Colors"
-        );
+    for (let i = 0; i < listLabels.length; i++) {
+        const change = getListChange(listLabels[i], oldLists[i], newLists[i]);
 
-    const scentChange =
-        compareArrays(
-            oldProduct.scents,
-            newProduct.scents,
-            "Scents"
-        );
-
-    if (sizeChange) {
-        addToArray(
-            changes,
-            sizeChange
-        );
+        if (change) {
+            addToArray(changes, change);
+        }
     }
 
-    if (colorChange) {
-        addToArray(
-            changes,
-            colorChange
-        );
-    }
+    const oldImages = getProductImages(oldProduct);
+    const newImages = getProductImages(newProduct);
 
-    if (scentChange) {
-        addToArray(
-            changes,
-            scentChange
-        );
-    }
+    if (!arraysAreEqual(oldImages, newImages)) {
+        let text = "Photos changed";
 
-    if (
-        oldProduct.image !==
-        newProduct.image
-    ) {
-        addToArray(
-            changes,
-            "Product image updated"
-        );
+        if (newImages.length > oldImages.length) {
+            const added = newImages.length - oldImages.length;
+            text = "Added " + added + (added === 1 ? " photo" : " photos") +
+                   " (" + newImages.length + " total)";
+        } else if (newImages.length < oldImages.length) {
+            const removed = oldImages.length - newImages.length;
+            text = "Removed " + removed + (removed === 1 ? " photo" : " photos") +
+                   " (" + newImages.length + " total)";
+        }
+
+        addToArray(changes, { label: "Photos", text: text });
     }
 
     if (changes.length === 0) {
         return "Product information updated";
     }
 
-    let result = "";
+    return changes;
+}
 
-    for (
-        let i = 0;
-        i < changes.length;
-        i++
-    ) {
-        if (i > 0) {
-            result += " • ";
+const MAX_PRODUCT_IMAGES = 6;
+const MAX_PRICE = 9999999;
+
+let formImages = [];
+
+function padNumber(value, size) {
+    let text = String(value);
+
+    while (text.length < size) {
+        text = "0" + text;
+    }
+
+    return text;
+}
+
+// Next unused internal ID. Looks at active AND archived products so an ID
+// is never reused after a delete.
+function getNextProductId() {
+    let highest = 0;
+
+    const lists = [products, archivedProducts];
+
+    for (let l = 0; l < lists.length; l++) {
+        for (let i = 0; i < lists[l].length; i++) {
+            const id = String(lists[l][i].id || "");
+
+            let digits = "";
+
+            for (let j = 0; j < id.length; j++) {
+                const ch = id.charAt(j);
+
+                if (ch >= "0" && ch <= "9") {
+                    digits += ch;
+                }
+            }
+
+            if (digits !== "" && Number(digits) > highest) {
+                highest = Number(digits);
+            }
+        }
+    }
+
+    return "LL-" + padNumber(highest + 1, 3);
+}
+
+function getProductImages(product) {
+    if (product.images && product.images.length > 0) {
+        return product.images;
+    }
+
+    if (product.image) {
+        return [product.image];
+    }
+
+    return [];
+}
+
+/* ---------- field errors ---------- */
+
+function setFieldError(fieldId, message) {
+    const input = document.getElementById(fieldId);
+    const error = document.getElementById(fieldId + "Error");
+    const zone = document.getElementById(fieldId + "Zone");
+
+    if (input) {
+        input.classList.add("invalid");
+    }
+
+    if (zone) {
+        zone.classList.add("invalid");
+    }
+
+    if (error) {
+        error.textContent = message;
+        error.style.display = "block";
+    }
+}
+
+function clearFieldError(fieldId) {
+    const input = document.getElementById(fieldId);
+    const error = document.getElementById(fieldId + "Error");
+    const zone = document.getElementById(fieldId + "Zone");
+
+    if (input) {
+        input.classList.remove("invalid");
+    }
+
+    if (zone) {
+        zone.classList.remove("invalid");
+    }
+
+    if (error) {
+        error.textContent = "";
+        error.style.display = "none";
+    }
+}
+
+function clearAllFieldErrors() {
+    const ids = [
+        "productCode",
+        "productName",
+        "category",
+        "price",
+        "productImage",
+        "manualColor",
+        "manualScent"
+    ];
+
+    for (let i = 0; i < ids.length; i++) {
+        clearFieldError(ids[i]);
+    }
+}
+
+/* ---------- product code ---------- */
+
+// Returns { product, archived } for a product already using this code.
+function findProductByCode(code, ignoreId) {
+    const wanted = convertToLowerCase(manualTrim(code));
+
+    if (wanted === "") {
+        return null;
+    }
+
+    for (let i = 0; i < products.length; i++) {
+        if (ignoreId !== undefined && products[i].id === ignoreId) {
+            continue;
         }
 
-        result += changes[i];
+        if (convertToLowerCase(manualTrim(products[i].code)) === wanted) {
+            return { product: products[i], archived: false };
+        }
+    }
+
+    for (let i = 0; i < archivedProducts.length; i++) {
+        if (convertToLowerCase(manualTrim(archivedProducts[i].code)) === wanted) {
+            return { product: archivedProducts[i], archived: true };
+        }
+    }
+
+    return null;
+}
+
+function getCodeError(code) {
+    const trimmed = manualTrim(code);
+
+    if (trimmed === "") {
+        return "Product code is required.";
+    }
+
+    const editingId =
+        editingIndex !== -1 && products[editingIndex]
+            ? products[editingIndex].id
+            : undefined;
+
+    const found = findProductByCode(trimmed, editingId);
+
+    if (!found) {
+        return "";
+    }
+
+    if (found.archived) {
+        return (
+            "\"" + trimmed + "\" belongs to an archived product (" +
+            found.product.name + "). Restore it or use a different code."
+        );
+    }
+
+    return "\"" + trimmed + "\" is already used by " + found.product.name + ".";
+}
+
+// Live check while typing: only reports duplicates, not "required".
+function checkProductCode() {
+    const input = document.getElementById("productCode");
+
+    if (!input) {
+        return;
+    }
+
+    if (manualTrim(input.value) === "") {
+        clearFieldError("productCode");
+        return;
+    }
+
+    const message = getCodeError(input.value);
+
+    if (message) {
+        setFieldError("productCode", message);
+    } else {
+        clearFieldError("productCode");
+    }
+}
+
+/* ---------- price (whole pesos only) ---------- */
+
+// Only lets digits, "." and "," be typed. The "." is allowed on purpose so
+// the person sees the "whole pesos only" message instead of digits being
+// silently merged (12.50 must never become 1250).
+function blockPriceKeys(event) {
+    if (event.ctrlKey || event.metaKey || event.altKey) {
+        return;
+    }
+
+    if (event.key.length !== 1) {
+        return;
+    }
+
+    const ch = event.key;
+
+    const allowed =
+        (ch >= "0" && ch <= "9") || ch === "." || ch === ",";
+
+    if (!allowed) {
+        event.preventDefault();
+    }
+}
+
+// Removes thousands separators, spaces and the peso sign from typed/pasted text.
+function stripPriceFormatting(text) {
+    let result = "";
+
+    for (let i = 0; i < text.length; i++) {
+        const ch = text.charAt(i);
+
+        if (ch !== "," && ch !== " " && ch !== "₱") {
+            result += ch;
+        }
     }
 
     return result;
 }
 
-function addProduct() {
-    const file =
-        productImage
-            ? productImage.files[0]
-            : null;
-
-    if (
-        !file &&
-        editingIndex === -1
-    ) {
-        alert(
-            "Please upload a product image."
-        );
-
-        return;
+function priceHasOnlyDigits(text) {
+    if (text === "") {
+        return false;
     }
 
-    const selectedCategory =
-        category.value;
+    for (let i = 0; i < text.length; i++) {
+        const ch = text.charAt(i);
 
-    const codeInput =
-        document.getElementById(
-            "productCode"
-        );
-
-    const nameInput =
-        document.getElementById(
-            "productName"
-        );
-
-    const priceInput =
-        document.getElementById(
-            "price"
-        );
-
-    const code =
-        manualTrim(
-            codeInput.value
-        );
-
-    const name =
-        manualTrim(
-            nameInput.value
-        );
-
-    const priceValue =
-        priceInput.value;
-
-    if (
-        !code ||
-        !name ||
-        !selectedCategory ||
-        priceValue === ""
-    ) {
-        alert(
-            "Please complete the required product information."
-        );
-
-        return;
-    }
-
-    for (
-        let i = 0;
-        i < products.length;
-        i++
-    ) {
-        if (
-            i !== editingIndex &&
-            convertToLowerCase(
-                products[i].code
-            ) ===
-            convertToLowerCase(code)
-        ) {
-            alert(
-                "Product code already exists."
-            );
-
-            return;
+        if (ch < "0" || ch > "9") {
+            return false;
         }
     }
 
-    const variantValues =
-        getProductVariantValues();
+    return true;
+}
 
-    const rule =
-        getVariantRule(
-            selectedCategory,
-            name
-        );
+function getPriceProblem(text) {
+    const clean = stripPriceFormatting(manualTrim(text));
 
-    if (
-        rule.sizes &&
-        variantValues.sizes.length === 0
-    ) {
-        alert(
-            "Please select at least one size."
-        );
+    if (clean === "") {
+        return "Price is required.";
+    }
 
+    for (let i = 0; i < clean.length; i++) {
+        if (clean.charAt(i) === ".") {
+            return "Whole pesos only. Remove the decimal point.";
+        }
+    }
+
+    if (!priceHasOnlyDigits(clean)) {
+        return "Enter the price using digits only.";
+    }
+
+    if (Number(clean) < 1) {
+        return "Price must be at least ₱1.";
+    }
+
+    if (Number(clean) > MAX_PRICE) {
+        return "Price cannot be more than ₱" + formatPrice(MAX_PRICE) + ".";
+    }
+
+    return "";
+}
+
+// Live handler. Never changes the digits the person typed; it only tidies
+// separators and reports a problem as soon as one appears.
+function sanitizePriceInput() {
+    const input = document.getElementById("price");
+
+    if (!input) {
         return;
     }
 
-    if (
-        rule.colors &&
-        variantValues.colors.length === 0
-    ) {
-        alert(
-            "Please select at least one color."
-        );
+    const stripped = stripPriceFormatting(input.value);
 
+    if (stripped !== input.value) {
+        input.value = stripped;
+    }
+
+    if (stripped === "") {
+        clearFieldError("price");
         return;
     }
 
-    if (
-        rule.scents &&
-        variantValues.scents.length === 0
-    ) {
-        alert(
-            "Please select at least one scent."
-        );
+    // do not complain about "0" while typing, only on submit
+    let problem = getPriceProblem(stripped);
 
-        return;
+    if (problem === "Price must be at least ₱1.") {
+        problem = "";
     }
 
-    let productId;
-
-    if (editingIndex === -1) {
-        productId = code;
+    if (problem) {
+        setFieldError("price", problem);
     } else {
-        productId =
-            products[editingIndex].id;
+        clearFieldError("price");
+    }
+}
+
+// Returns the whole number, or -1 when the text is not a valid whole number.
+function parseWholePrice(text) {
+    const clean = stripPriceFormatting(manualTrim(text));
+
+    if (!priceHasOnlyDigits(clean)) {
+        return -1;
     }
 
-    let imageValue = "";
+    return Number(clean);
+}
 
-    if (file) {
-        imageValue =
-            URL.createObjectURL(file);
-    } else {
-        imageValue =
-            products[editingIndex].image;
+/* ---------- photos ---------- */
+
+function renderImageGrid() {
+    const grid = document.getElementById("imageGrid");
+    const counter = document.getElementById("imageCounter");
+    const zone = document.getElementById("productImageZone");
+    const label = document.getElementById("uploadText");
+
+    if (counter) {
+        counter.textContent = formImages.length + " / " + MAX_PRODUCT_IMAGES;
     }
+
+    if (label) {
+        label.textContent =
+            formImages.length === 0 ? "Add photos" : "Add more photos";
+    }
+
+    if (zone) {
+        if (formImages.length >= MAX_PRODUCT_IMAGES) {
+            zone.classList.add("full");
+        } else {
+            zone.classList.remove("full");
+        }
+    }
+
+    if (!grid) {
+        return;
+    }
+
+    let html = "";
+
+    for (let i = 0; i < formImages.length; i++) {
+        html += `
+            <div class="img-thumb ${i === 0 ? "is-cover" : ""}">
+
+                <img src="${escapeHTML(formImages[i])}" alt="Photo ${i + 1}">
+
+                ${
+                    i === 0
+                        ? `<span class="img-cover-badge">Cover</span>`
+                        : `<button type="button" class="img-make-cover" onclick="makeCoverImage(${i})">Make cover</button>`
+                }
+
+                <button
+                    type="button"
+                    class="img-remove"
+                    aria-label="Remove photo ${i + 1}"
+                    onclick="removeFormImage(${i})">×</button>
+
+            </div>
+        `;
+    }
+
+    grid.innerHTML = html;
+}
+
+function addFormImages(files) {
+    let notImages = 0;
+    let overLimit = 0;
+
+    clearFieldError("productImage");
+
+    for (let i = 0; i < files.length; i++) {
+        const file = files[i];
+
+        if (file.type.substring(0, 6) !== "image/") {
+            notImages++;
+            continue;
+        }
+
+        if (formImages.length >= MAX_PRODUCT_IMAGES) {
+            overLimit++;
+            continue;
+        }
+
+        addToArray(formImages, URL.createObjectURL(file));
+    }
+
+    renderImageGrid();
+
+    if (overLimit > 0) {
+        setFieldError(
+            "productImage",
+            "A product can have up to " + MAX_PRODUCT_IMAGES +
+            " photos. " + overLimit + " not added."
+        );
+    } else if (notImages > 0) {
+        setFieldError("productImage", "Only image files can be uploaded.");
+    }
+}
+
+function removeFormImage(index) {
+    removeFromArray(formImages, index);
+    renderImageGrid();
+}
+
+function makeCoverImage(index) {
+    const chosen = formImages[index];
+
+    removeFromArray(formImages, index);
+    addToFront(formImages, chosen);
+    renderImageGrid();
+}
+
+/* ---------- validate + save ---------- */
+
+// Shows every problem at once and returns the id of the first invalid field.
+function validateProductForm() {
+    clearAllFieldErrors();
+
+    let firstInvalid = "";
+
+    const codeValue = document.getElementById("productCode").value;
+    const codeError = getCodeError(codeValue);
+
+    if (codeError) {
+        setFieldError("productCode", codeError);
+        firstInvalid = "productCode";
+    }
+
+    if (manualTrim(document.getElementById("productName").value) === "") {
+        setFieldError("productName", "Product name is required.");
+
+        if (!firstInvalid) {
+            firstInvalid = "productName";
+        }
+    }
+
+    if (document.getElementById("category").value === "") {
+        setFieldError("category", "Please select a category.");
+
+        if (!firstInvalid) {
+            firstInvalid = "category";
+        }
+    }
+
+    const priceProblem = getPriceProblem(document.getElementById("price").value);
+
+    if (priceProblem) {
+        setFieldError("price", priceProblem);
+
+        if (!firstInvalid) {
+            firstInvalid = "price";
+        }
+    }
+
+    if (formImages.length === 0) {
+        setFieldError("productImage", "Add at least one product photo.");
+
+        if (!firstInvalid) {
+            firstInvalid = "productImage";
+        }
+    }
+
+    return firstInvalid;
+}
+
+function addProduct() {
+    addPendingManualValues();
+
+    const firstInvalid = validateProductForm();
+
+    if (firstInvalid) {
+        const target =
+            document.getElementById(
+                firstInvalid === "productImage" ? "productImageZone" : firstInvalid
+            );
+
+        if (target) {
+            target.scrollIntoView({ behavior: "smooth", block: "center" });
+
+            if (firstInvalid !== "productImage") {
+                target.focus();
+            }
+        }
+
+        return;
+    }
+
+    const selectedCategory = document.getElementById("category").value;
+    const images = cloneProductArray(formImages);
 
     const product = {
         id:
-            productId,
+            editingIndex === -1
+                ? getNextProductId()
+                : products[editingIndex].id,
 
-        image:
-            imageValue,
+        image: images[0],
 
-        code:
-            code,
+        images: images,
 
-        name:
-            name,
+        code: manualTrim(document.getElementById("productCode").value),
 
-        category:
-            selectedCategory,
+        name: manualTrim(document.getElementById("productName").value),
 
-        price:
-            Number(priceValue),
+        category: selectedCategory,
 
-        sizes:
-            variantValues.sizes,
+        price: parseWholePrice(document.getElementById("price").value),
+
+        sizes: getCheckedValues("sizeOptions"),
 
         colors:
-            variantValues.colors,
+            selectedCategory === "Perfumes" ||
+            selectedCategory === "Body Care Products"
+                ? []
+                : joinUnique(getCheckedValues("colorOptions"), manualColors),
 
         scents:
-            variantValues.scents
+            selectedCategory === "Perfumes"
+                ? joinUnique([], manualScents)
+                : []
     };
 
     if (editingIndex === -1) {
-        addToArray(
-            products,
-            product
-        );
+        addToArray(products, product);
 
-        createInventoryRecord(
-            product,
-            products.length - 1
-        );
+        createInventoryRecord(product, products.length - 1);
 
         addAuditRecord(
             product,
             "Added",
-            "Product added with automatic inventory setup"
+            "Added to " + product.category + " at ₱" + formatPrice(product.price) +
+            " with " + images.length + (images.length === 1 ? " photo" : " photos")
         );
+
     } else {
-        const oldProduct =
-            products[editingIndex];
+        const oldProduct = products[editingIndex];
+        const changes = getProductChanges(oldProduct, product);
 
-        const changes =
-            getProductChanges(
-                oldProduct,
-                product
-            );
+        products[editingIndex] = product;
 
-        products[editingIndex] =
-            product;
+        updateInventoryProduct(product);
 
-        updateInventoryProduct(
-            product
-        );
-
-        addAuditRecord(
-            product,
-            "Updated",
-            changes
-        );
+        addAuditRecord(product, "Updated", changes);
 
         editingIndex = -1;
 
-        const button =
-            document.getElementById(
-                "addProductButton"
-            );
-
-        if (button) {
-            button.textContent =
-                "Add Product";
-        }
+        document.getElementById("addProductButton").textContent = "Add Product";
     }
 
     displayProducts();
     updateAudit();
-    displayArchivedProducts();
     renderInventory();
     clearForm();
 }
 
+// One row of small chips (sizes, colors or scents), capped so cards stay tidy.
+function buildChipRow(label, list) {
+    if (!list || list.length === 0) {
+        return "";
+    }
+
+    const SHOW = 4;
+    let chips = "";
+
+    for (let i = 0; i < list.length && i < SHOW; i++) {
+        chips += `<span class="chip">${escapeHTML(list[i])}</span>`;
+    }
+
+    if (list.length > SHOW) {
+        let rest = "";
+
+        for (let i = SHOW; i < list.length; i++) {
+            if (i > SHOW) {
+                rest += ", ";
+            }
+
+            rest += list[i];
+        }
+
+        chips += `<span class="chip more" title="${escapeHTML(rest)}">+${list.length - SHOW}</span>`;
+    }
+
+    return `
+        <div class="chip-row">
+            <span class="chip-label">${label}</span>
+            ${chips}
+        </div>
+    `;
+}
+
+// Next/previous photo on a product card (no re-render).
+function cycleProductImage(productIndex, step) {
+    const product = products[productIndex];
+    const media = document.getElementById("pcmedia-" + productIndex);
+    const image = document.getElementById("pcimg-" + productIndex);
+    const count = document.getElementById("pccount-" + productIndex);
+
+    if (!product || !media || !image) {
+        return;
+    }
+
+    const images = getProductImages(product);
+
+    if (images.length < 2) {
+        return;
+    }
+
+    let next = Number(media.dataset.index) + step;
+
+    if (next < 0) {
+        next = images.length - 1;
+    }
+
+    if (next >= images.length) {
+        next = 0;
+    }
+
+    media.dataset.index = next;
+    media.classList.remove("no-image");
+    image.style.display = "";
+    image.src = images[next];
+
+    if (count) {
+        count.textContent = (next + 1) + " / " + images.length;
+    }
+}
+
 function displayProducts() {
-    const container =
-        document.getElementById(
-            "productContainer"
-        );
+    const container = document.getElementById("productContainer");
 
     if (!container) {
         return;
     }
 
-    const searchInput =
-        document.getElementById(
-            "searchInput"
-        );
+    const searchInput = document.getElementById("searchInput");
+    const selectedCategory = document.getElementById("filterCategory");
 
-    const filterCategory =
-        document.getElementById(
-            "filterCategory"
-        );
+    const search = searchInput ? convertToLowerCase(searchInput.value) : "";
+    const categoryFilter = selectedCategory ? selectedCategory.value : "";
 
-    const search =
-        searchInput
-            ? convertToLowerCase(
-                searchInput.value
-            )
-            : "";
-
-    const selectedCategory =
-        filterCategory
-            ? filterCategory.value
-            : "";
-
-    container.innerHTML = "";
-
+    let cards = "";
     let foundProducts = 0;
 
-    for (
-        let i = 0;
-        i < products.length;
-        i++
-    ) {
-        const product =
-            products[i];
+    for (let i = 0; i < products.length; i++) {
+        const product = products[i];
 
-        let searchableVariants = "";
+        const sizes = product.sizes || [];
+        const colors = product.colors || [];
+        const scents = product.scents || [];
 
-        const sizes =
-            product.sizes || [];
+        let variantText = "";
 
-        const colors =
-            product.colors || [];
-
-        const scents =
-            product.scents || [];
-
-        for (
-            let j = 0;
-            j < sizes.length;
-            j++
-        ) {
-            searchableVariants +=
-                sizes[j] + " ";
+        for (let j = 0; j < sizes.length; j++) {
+            variantText += sizes[j] + " ";
         }
 
-        for (
-            let j = 0;
-            j < colors.length;
-            j++
-        ) {
-            searchableVariants +=
-                colors[j] + " ";
+        for (let j = 0; j < colors.length; j++) {
+            variantText += colors[j] + " ";
         }
 
-        for (
-            let j = 0;
-            j < scents.length;
-            j++
-        ) {
-            searchableVariants +=
-                scents[j] + " ";
+        for (let j = 0; j < scents.length; j++) {
+            variantText += scents[j] + " ";
         }
 
         const matchesSearch =
-            searchText(
-                product.name,
-                search
-            ) ||
-            searchText(
-                product.code,
-                search
-            ) ||
-            searchText(
-                searchableVariants,
-                search
-            );
+            searchText(product.name, search) ||
+            searchText(product.code, search) ||
+            searchText(variantText, search);
 
         const matchesCategory =
-            selectedCategory === "" ||
-            product.category ===
-                selectedCategory;
+            categoryFilter === "" || product.category === categoryFilter;
 
-        if (
-            !matchesSearch ||
-            !matchesCategory
-        ) {
+        if (!matchesSearch || !matchesCategory) {
             continue;
         }
 
         foundProducts++;
 
-        let details = "";
+        const images = getProductImages(product);
 
-        if (
-            product.sizes &&
-            product.sizes.length > 0
-        ) {
-            let sizeText = "";
+        const chips =
+            buildChipRow("Sizes", sizes) +
+            buildChipRow("Colors", colors) +
+            buildChipRow("Scents", scents);
 
-            for (
-                let j = 0;
-                j < product.sizes.length;
-                j++
-            ) {
-                if (j > 0) {
-                    sizeText += ", ";
-                }
+        cards += `
+            <article class="pc-card">
 
-                sizeText +=
-                    product.sizes[j];
-            }
+                <div class="pc-media ${images.length === 0 ? "no-image" : ""}"
+                     id="pcmedia-${i}"
+                     data-index="0">
 
-            details +=
-                "<strong>Size:</strong> " +
-                escapeHTML(sizeText);
-        }
+                    ${
+                        images.length > 0
+                            ? `<img
+                                   id="pcimg-${i}"
+                                   src="${escapeHTML(images[0])}"
+                                   alt="${escapeHTML(product.name)}"
+                                   onerror="showImageFallback(this)">`
+                            : `<img id="pcimg-${i}" alt="" style="display:none">`
+                    }
 
-        if (
-            product.colors &&
-            product.colors.length > 0
-        ) {
-            if (details !== "") {
-                details += " · ";
-            }
-
-            let colorText = "";
-
-            for (
-                let j = 0;
-                j < product.colors.length;
-                j++
-            ) {
-                if (j > 0) {
-                    colorText += ", ";
-                }
-
-                colorText +=
-                    product.colors[j];
-            }
-
-            details +=
-                "<strong>Color:</strong> " +
-                escapeHTML(colorText);
-        }
-
-        if (
-            product.scents &&
-            product.scents.length > 0
-        ) {
-            if (details !== "") {
-                details += " · ";
-            }
-
-            let scentText = "";
-
-            for (
-                let j = 0;
-                j < product.scents.length;
-                j++
-            ) {
-                if (j > 0) {
-                    scentText += ", ";
-                }
-
-                scentText +=
-                    product.scents[j];
-            }
-
-            details +=
-                "<strong>Scent:</strong> " +
-                escapeHTML(scentText);
-        }
-
-        let detailsHTML = "";
-
-        if (details !== "") {
-            detailsHTML = `
-                <p class="product-details">
-                    ${details}
-                </p>
-            `;
-        }
-
-        container.innerHTML += `
-            <div class="product-card">
-
-                <img
-                    src="${escapeHTML(product.image)}"
-                    alt="${escapeHTML(product.name)}"
-                >
-
-                <div class="product-info">
-
-                    <span class="product-code">
-                        ${escapeHTML(product.code)}
+                    <span class="pc-initials">
+                        ${escapeHTML(getProductInitials(product.name))}
                     </span>
 
-                    <h3>
-                        ${escapeHTML(product.name)}
-                    </h3>
+                    <span class="pc-category">${escapeHTML(product.category)}</span>
 
-                    <span class="category">
-                        ${escapeHTML(product.category)}
-                    </span>
+                    ${
+                        images.length > 1
+                            ? `<button type="button" class="pc-nav prev" aria-label="Previous photo"
+                                   onclick="cycleProductImage(${i}, -1)">‹</button>
+                               <button type="button" class="pc-nav next" aria-label="Next photo"
+                                   onclick="cycleProductImage(${i}, 1)">›</button>
+                               <span class="pc-count" id="pccount-${i}">1 / ${images.length}</span>`
+                            : ""
+                    }
 
-                    ${detailsHTML}
+                </div>
 
-                    <div class="product-bottom">
+                <div class="pc-body">
 
-                        <span class="price">
-                            ₱${formatPrice(product.price)}
-                        </span>
+                    <span class="pc-code">${escapeHTML(product.code)}</span>
 
-                        <div class="actions">
+                    <h3>${escapeHTML(product.name)}</h3>
 
-                            <button
-                                onclick="editProduct(${i})">
-                                Edit
-                            </button>
-
-                            <button
-                                onclick="deleteProduct(${i})">
-                                Delete
-                            </button>
-
-                        </div>
-
+                    <div class="pc-chips">
+                        ${chips || `<span class="pc-standard">Standard product</span>`}
                     </div>
 
                 </div>
 
-            </div>
+                <div class="pc-footer">
+
+                    <span class="pc-price">₱${formatPrice(product.price)}</span>
+
+                    <div class="pc-actions">
+                        <button type="button" class="pc-edit" onclick="editProduct(${i})">Edit</button>
+                        <button type="button" class="pc-delete" onclick="deleteProduct(${i})">Delete</button>
+                    </div>
+
+                </div>
+
+            </article>
         `;
     }
 
+    setRecordCount(
+        document.getElementById("productCount"),
+        foundProducts,
+        "Product",
+        "Products"
+    );
+
     if (foundProducts === 0) {
         container.innerHTML = `
-            <div class="empty">
-                No products found.
+            <div class="empty-state">
+                <div class="empty-icon">⌕</div>
+                <strong>No products found</strong>
+                <span>${
+                    products.length === 0
+                        ? "Add your first product using the form above."
+                        : "Try a different search or category."
+                }</span>
             </div>
         `;
+
+        return;
     }
+
+    container.innerHTML = cards;
 }
 
 function cloneInventoryVariants(
@@ -2315,70 +2937,93 @@ function cloneInventoryVariants(
 ) {
     const result = [];
 
-    if (!variants) {
-        return result;
-    }
+    variants =
+        variants || [];
 
     for (
         let i = 0;
         i < variants.length;
         i++
     ) {
-        result[i] = {
-            id:
-                variants[i].id,
+        addToArray(
+            result,
+            {
+                id:
+                    variants[i].id,
 
-            key:
-                variants[i].key,
+                key:
+                    variants[i].key,
 
-            color:
-                variants[i].color,
+                color:
+                    variants[i].color,
 
-            size:
-                variants[i].size,
+                size:
+                    variants[i].size,
 
-            scent:
-                variants[i].scent,
+                scent:
+                    variants[i].scent,
 
-            quantity:
-                Number(
-                    variants[i].quantity
-                ),
+                quantity:
+                    Number(
+                        variants[i].quantity
+                    ),
 
-            threshold:
-                variants[i].threshold !==
-                undefined
-                    ? Number(
-                        variants[i].threshold
+                threshold:
+                    variants[i].threshold !==
+                    undefined
+                        ? Number(
+                            variants[i].threshold
+                        )
+                        : DEFAULT_THRESHOLD,
+
+                lastRestocked:
+                    variants[i]
+                        .lastRestocked ||
+                    "",
+
+                nextRestock:
+                    variants[i]
+                        .nextRestock ||
+                    "",
+
+                restockTracking:
+                    cloneRestockTracking(
+                        variants[i]
+                            .restockTracking,
+                        variants[i].quantity
                     )
-                    : DEFAULT_THRESHOLD
-        };
+            }
+        );
     }
 
     return result;
 }
 
 function cloneProductArray(
-    source
+    array
 ) {
     const result = [];
 
-    if (!source) {
-        return result;
-    }
+    array =
+        array || [];
 
     for (
         let i = 0;
-        i < source.length;
+        i < array.length;
         i++
     ) {
-        result[i] = source[i];
+        addToArray(
+            result,
+            array[i]
+        );
     }
 
     return result;
 }
 
-function deleteProduct(index) {
+function deleteProduct(
+    index
+) {
     const product =
         products[index];
 
@@ -2395,8 +3040,8 @@ function deleteProduct(index) {
         return;
     }
 
-    const inventoryItem =
-        getInventoryRecord(
+    const inventoryRecord =
+        findInventoryByProductId(
             product.id
         );
 
@@ -2406,6 +3051,11 @@ function deleteProduct(index) {
 
         image:
             product.image,
+
+        images:
+            cloneProductArray(
+                getProductImages(product)
+            ),
 
         code:
             product.code,
@@ -2435,15 +3085,19 @@ function deleteProduct(index) {
             ),
 
         inventoryVariants:
-            inventoryItem
+            inventoryRecord
                 ? cloneInventoryVariants(
-                    inventoryItem.variants
+                    inventoryRecord.variants
                 )
                 : [],
 
         dateArchived:
             getDateTime()
     };
+
+    removeInventoryRecord(
+        product.id
+    );
 
     removeFromArray(
         products,
@@ -2453,10 +3107,6 @@ function deleteProduct(index) {
     addToFront(
         archivedProducts,
         archivedProduct
-    );
-
-    removeInventoryRecord(
-        product.id
     );
 
     addAuditRecord(
@@ -2471,7 +3121,9 @@ function deleteProduct(index) {
     renderInventory();
 }
 
-function editProduct(index) {
+function editProduct(
+    index
+) {
     const product =
         products[index];
 
@@ -2500,23 +3152,104 @@ function editProduct(index) {
     document.getElementById(
         "price"
     ).value =
-        product.price;
+        String(roundToWhole(product.price));
 
     updateVariantFields();
+
+    const sizeContainer =
+        document.getElementById(
+            "sizeOptions"
+        );
+
+    const colorContainer =
+        document.getElementById(
+            "colorOptions"
+        );
+
+    const sizeInputs =
+        sizeContainer
+            ? sizeContainer.querySelectorAll(
+                "input"
+            )
+            : [];
+
+    const colorInputs =
+        colorContainer
+            ? colorContainer.querySelectorAll(
+                "input"
+            )
+            : [];
+
+    for (
+        let i = 0;
+        i < sizeInputs.length;
+        i++
+    ) {
+        sizeInputs[i].checked =
+            containsValue(
+                product.sizes || [],
+                sizeInputs[i].value
+            );
+    }
+
+    for (
+        let i = 0;
+        i < colorInputs.length;
+        i++
+    ) {
+        colorInputs[i].checked =
+            containsValue(
+                product.colors || [],
+                colorInputs[i].value
+            );
+    }
+
+    // colors that are not one of the basic colors come back as manual entries
+    const editColors = product.colors || [];
+
+    for (let i = 0; i < editColors.length; i++) {
+        let isBasic = false;
+
+        for (let j = 0; j < colorInputs.length; j++) {
+            if (colorInputs[j].value === editColors[i]) {
+                isBasic = true;
+                break;
+            }
+        }
+
+        if (!isBasic && findIgnoreCase(manualColors, editColors[i]) === -1) {
+            addToArray(manualColors, editColors[i]);
+        }
+    }
+
+    const editScents = product.scents || [];
+
+    for (let i = 0; i < editScents.length; i++) {
+        if (findIgnoreCase(manualScents, editScents[i]) === -1) {
+            addToArray(manualScents, editScents[i]);
+        }
+    }
+
+    renderManualChips("color");
+    renderManualChips("scent");
 
     if (productImage) {
         productImage.value = "";
     }
 
-    imagePreview.src =
-        product.image;
+    formImages = cloneProductArray(getProductImages(product));
+    renderImageGrid();
+    clearAllFieldErrors();
 
-    imagePreview.style.display =
-        "block";
+    const banner = document.getElementById("editBanner");
+    const bannerName = document.getElementById("editBannerName");
 
-    if (uploadText) {
-        uploadText.style.display =
-            "none";
+    if (banner) {
+        banner.style.display = "flex";
+    }
+
+    if (bannerName) {
+        bannerName.textContent = product.name + " (" + product.code + ")";
     }
 
     document.getElementById(
@@ -2531,235 +3264,280 @@ function editProduct(index) {
 }
 
 function clearForm() {
-    const productCode =
-        document.getElementById(
-            "productCode"
-        );
+    document.getElementById(
+        "productCode"
+    ).value = "";
 
-    const productName =
-        document.getElementById(
-            "productName"
-        );
+    document.getElementById(
+        "productName"
+    ).value = "";
 
-    const price =
-        document.getElementById(
-            "price"
-        );
+    document.getElementById(
+        "category"
+    ).value = "";
 
-    if (productCode) {
-        productCode.value = "";
-    }
+    document.getElementById(
+        "price"
+    ).value = "";
 
-    if (productName) {
-        productName.value = "";
-    }
+    document.getElementById(
+        "sizeOptions"
+    ).innerHTML = "";
 
-    if (category) {
-        category.value = "";
-    }
+    document.getElementById(
+        "colorOptions"
+    ).innerHTML = "";
 
-    if (price) {
-        price.value = "";
-    }
-
-    editingIndex = -1;
-
-    if (sizeGroup) {
-        sizeGroup.innerHTML = "";
-        sizeGroup.style.display =
-            "none";
-    }
-
-    if (colorGroup) {
-        colorGroup.innerHTML = "";
-        colorGroup.style.display =
-            "none";
-    }
-
-    if (scentGroup) {
-        scentGroup.innerHTML = "";
-        scentGroup.style.display =
-            "none";
-    }
+    resetManualEntries();
 
     if (productImage) {
         productImage.value = "";
     }
 
-    if (imagePreview) {
-        imagePreview.src = "";
-        imagePreview.style.display =
-            "none";
+    formImages = [];
+    renderImageGrid();
+    clearAllFieldErrors();
+
+    const editBanner = document.getElementById("editBanner");
+
+    if (editBanner) {
+        editBanner.style.display = "none";
     }
 
-    if (uploadText) {
-        uploadText.style.display =
-            "block";
+    editingIndex =
+        -1;
+
+    document.getElementById(
+        "addProductButton"
+    ).textContent =
+        "Add Product";
+
+    updateVariantFields();
+}
+
+function setRecordCount(element, count, singular, plural) {
+    if (!element) {
+        return;
     }
 
-    const button =
-        document.getElementById(
-            "addProductButton"
-        );
+    element.innerHTML =
+        "<strong>" + count + "</strong> " +
+        (count === 1 ? (singular || "Record") : (plural || "Records"));
+}
 
-    if (button) {
-        button.textContent =
-            "Add Product";
+// The date input gives YYYY-MM-DD; audit dates are stored as MM/DD/YYYY.
+function dateInputToDateValue(inputValue) {
+    if (!inputValue || inputValue.length < 10) {
+        return "";
     }
+
+    return (
+        inputValue.substring(5, 7) + "/" +
+        inputValue.substring(8, 10) + "/" +
+        inputValue.substring(0, 4)
+    );
+}
+
+function clearAuditDate() {
+    const dateInput = document.getElementById("auditDateFilter");
+
+    if (dateInput) {
+        dateInput.value = "";
+    }
+
+    displayAudit();
+}
+
+function buildAuditChangesHTML(changes) {
+    if (!changes) {
+        return `<span class="chg-text">—</span>`;
+    }
+
+    if (typeof changes === "string") {
+        return `<span class="chg-text">${escapeHTML(changes)}</span>`;
+    }
+
+    let html = `<div class="chg-list">`;
+
+    for (let i = 0; i < changes.length; i++) {
+        const change = changes[i];
+
+        html += `<div class="chg"><span class="chg-label">${escapeHTML(change.label)}</span>`;
+
+        if (change.added || change.removed) {
+            for (let j = 0; j < change.removed.length; j++) {
+                html += `<span class="chg-tag rem">− ${escapeHTML(change.removed[j])}</span>`;
+            }
+
+            for (let j = 0; j < change.added.length; j++) {
+                html += `<span class="chg-tag add">+ ${escapeHTML(change.added[j])}</span>`;
+            }
+        } else if (change.from !== undefined) {
+            html += `
+                <span class="chg-from">${escapeHTML(change.from)}</span>
+                <span class="chg-arrow">→</span>
+                <span class="chg-to">${escapeHTML(change.to)}</span>
+            `;
+        } else {
+            html += `<span class="chg-text">${escapeHTML(change.text)}</span>`;
+        }
+
+        html += `</div>`;
+    }
+
+    return html + `</div>`;
+}
+
+function setAuditFilter(action) {
+    const actionSelect = document.getElementById("actionFilter");
+
+    if (!actionSelect) {
+        return;
+    }
+
+    // clicking the active card again clears the filter
+    actionSelect.value = actionSelect.value === action ? "" : action;
+
+    displayAudit();
 }
 
 function displayAudit() {
-    const table =
-        document.getElementById(
-            "auditTable"
-        );
+    const table = document.getElementById("auditTable");
 
     if (!table) {
         return;
     }
 
-    const searchInput =
-        document.getElementById(
-            "auditSearchInput"
-        );
+    const searchInput = document.getElementById("auditSearchInput");
+    const actionSelect = document.getElementById("actionFilter");
 
-    const actionFilter =
-        document.getElementById(
-            "actionFilter"
-        );
+    const dateInput = document.getElementById("auditDateFilter");
+    const dateWrap = document.getElementById("auditDateWrap");
 
-    const search =
-        searchInput
-            ? convertToLowerCase(
-                searchInput.value
-            )
-            : "";
+    const search = searchInput ? convertToLowerCase(searchInput.value) : "";
+    const filter = actionSelect ? actionSelect.value : "";
+    const selectedDate = dateInput ? dateInputToDateValue(dateInput.value) : "";
 
-    const filter =
-        actionFilter
-            ? actionFilter.value
-            : "";
+    if (dateWrap) {
+        if (selectedDate) {
+            dateWrap.classList.add("has-value");
+        } else {
+            dateWrap.classList.remove("has-value");
+        }
+    }
 
-    table.innerHTML = "";
+    const filteredRecords = [];
 
-    let filteredCount = 0;
-
-    for (
-        let i = 0;
-        i < auditRecords.length;
-        i++
-    ) {
-        const audit =
-            auditRecords[i];
+    for (let i = 0; i < auditRecords.length; i++) {
+        const audit = auditRecords[i];
 
         const matchesSearch =
-            searchText(
-                audit.productCode,
-                search
-            ) ||
-            searchText(
-                audit.productName,
-                search
-            ) ||
-            searchText(
-                audit.changes,
-                search
-            );
+            searchText(audit.productCode, search) ||
+            searchText(audit.productName, search);
 
-        const matchesFilter =
-            filter === "" ||
-            audit.action === filter;
+        const matchesFilter = filter === "" || audit.action === filter;
 
-        if (
-            !matchesSearch ||
-            !matchesFilter
-        ) {
-            continue;
+        const matchesDate =
+            selectedDate === "" ||
+            audit.date.substring(0, 10) === selectedDate;
+
+        if (matchesSearch && matchesFilter && matchesDate) {
+            addToArray(filteredRecords, audit);
+        }
+    }
+
+    const icons = { Added: "+", Updated: "✎", Deleted: "×", Restored: "↺" };
+
+    let rows = "";
+    let currentDay = "";
+
+    for (let i = 0; i < filteredRecords.length; i++) {
+        const audit = filteredRecords[i];
+
+        const day = audit.date.substring(0, 10);
+        const time = audit.date.substring(11);
+
+        // a divider row whenever the day changes
+        if (day !== currentDay) {
+            currentDay = day;
+
+            rows += `
+                <tr class="au-day">
+                    <td colspan="4">
+                        <strong>${escapeHTML(formatFriendlyDate(day))}</strong>
+                        <span>${escapeHTML(firstLetterUpper(describeDaysFromToday(day)))}</span>
+                    </td>
+                </tr>
+            `;
         }
 
-        filteredCount++;
+        const actionClass = "action-" + convertToLowerCase(audit.action);
 
-        let actionClass = "";
-
-        if (audit.action === "Added") {
-            actionClass =
-                "action-added";
-        } else if (
-            audit.action === "Updated"
-        ) {
-            actionClass =
-                "action-updated";
-        } else if (
-            audit.action === "Deleted"
-        ) {
-            actionClass =
-                "action-deleted";
-        } else if (
-            audit.action === "Restored"
-        ) {
-            actionClass =
-                "action-restored";
-        }
-
-        table.innerHTML += `
+        rows += `
             <tr>
 
-                <td>
-                    ${escapeHTML(audit.date)}
+                <td data-label="When">
+                    <div class="au-when">
+                        <strong>${escapeHTML(time)}</strong>
+                        <span>${escapeHTML(audit.user)}</span>
+                    </div>
                 </td>
 
-                <td>
-                    ${escapeHTML(audit.user)}
+                <td data-label="Product">
+                    <div class="au-product">
+                        <strong>${escapeHTML(audit.productName)}</strong>
+                        <span class="au-code">${escapeHTML(audit.productCode)}</span>
+                    </div>
                 </td>
 
-                <td>
-                    ${escapeHTML(audit.productCode)}
-                </td>
-
-                <td>
-                    ${escapeHTML(audit.productName)}
-                </td>
-
-                <td>
-                    <span
-                        class="action-badge ${actionClass}">
+                <td data-label="Action">
+                    <span class="action-badge ${actionClass}">
+                        <i>${icons[audit.action] || "•"}</i>
                         ${escapeHTML(audit.action)}
                     </span>
                 </td>
 
-                <td>
-                    ${escapeHTML(audit.changes)}
+                <td data-label="Changes">
+                    ${buildAuditChangesHTML(audit.changes)}
                 </td>
 
             </tr>
         `;
     }
 
-    const recordCount =
-        document.getElementById(
-            "recordCount"
-        );
+    table.innerHTML = rows;
 
-    if (recordCount) {
-        recordCount.textContent =
-            filteredCount +
-            (
-                filteredCount === 1
-                    ? " Record"
-                    : " Records"
-            );
-    }
+    const recordCount = document.getElementById("recordCount");
+    const emptyMessage = document.getElementById("emptyMessage");
 
-    const emptyMessage =
-        document.getElementById(
-            "emptyMessage"
-        );
+    setRecordCount(recordCount, filteredRecords.length);
 
     if (emptyMessage) {
-        emptyMessage.style.display =
-            filteredCount === 0
-                ? "block"
-                : "none";
+        if (filteredRecords.length === 0) {
+            emptyMessage.innerHTML =
+                auditRecords.length === 0
+                    ? `<div class="empty-icon">≡</div>
+                       <strong>No activity yet</strong>
+                       <span>Adding, editing, deleting or restoring a product will be recorded here.</span>`
+                    : `<div class="empty-icon">⌕</div>
+                       <strong>No matching records</strong>
+                       <span>Try a different search, date or action filter.</span>`;
+
+            emptyMessage.style.display = "flex";
+        } else {
+            emptyMessage.style.display = "none";
+        }
+    }
+
+    // highlight the summary card that matches the active filter
+    const cards = document.querySelectorAll(".summary-filter");
+
+    for (let i = 0; i < cards.length; i++) {
+        if ((cards[i].dataset.filter || "") === filter) {
+            cards[i].classList.add("active");
+        } else {
+            cards[i].classList.remove("active");
+        }
     }
 }
 
@@ -2767,355 +3545,192 @@ function updateAudit() {
     let added = 0;
     let updated = 0;
     let deleted = 0;
+    let restored = 0;
 
-    for (
-        let i = 0;
-        i < auditRecords.length;
-        i++
-    ) {
-        if (
-            auditRecords[i].action ===
-            "Added"
-        ) {
+    for (let i = 0; i < auditRecords.length; i++) {
+        const action = auditRecords[i].action;
+
+        if (action === "Added") {
             added++;
-        } else if (
-            auditRecords[i].action ===
-            "Updated"
-        ) {
+        } else if (action === "Updated") {
             updated++;
-        } else if (
-            auditRecords[i].action ===
-            "Deleted"
-        ) {
+        } else if (action === "Deleted") {
             deleted++;
+        } else if (action === "Restored") {
+            restored++;
         }
     }
 
-    const totalActivities =
-        document.getElementById(
-            "totalActivities"
-        );
+    const targets = [
+        ["totalActivities", auditRecords.length],
+        ["addedCount", added],
+        ["updatedCount", updated],
+        ["deletedCount", deleted],
+        ["restoredCount", restored]
+    ];
 
-    const addedCount =
-        document.getElementById(
-            "addedCount"
-        );
+    for (let i = 0; i < targets.length; i++) {
+        const element = document.getElementById(targets[i][0]);
 
-    const updatedCount =
-        document.getElementById(
-            "updatedCount"
-        );
-
-    const deletedCount =
-        document.getElementById(
-            "deletedCount"
-        );
-
-    if (totalActivities) {
-        totalActivities.textContent =
-            auditRecords.length;
-    }
-
-    if (addedCount) {
-        addedCount.textContent =
-            added;
-    }
-
-    if (updatedCount) {
-        updatedCount.textContent =
-            updated;
-    }
-
-    if (deletedCount) {
-        deletedCount.textContent =
-            deleted;
+        if (element) {
+            element.textContent = targets[i][1];
+        }
     }
 
     displayAudit();
 }
 
+// Shows the initials tile when an image is missing or fails to load.
+function showImageFallback(image) {
+    if (image && image.parentNode) {
+        image.parentNode.classList.add("no-image");
+        image.style.display = "none";
+    }
+}
+
 function displayArchivedProducts() {
-    const container =
-        document.getElementById(
-            "archiveContainer"
-        );
+    const container = document.getElementById("archiveContainer");
 
     if (!container) {
         return;
     }
 
-    const searchInput =
-        document.getElementById(
-            "archiveSearchInput"
-        );
+    const searchInput = document.getElementById("archiveSearchInput");
+    const categoryFilter = document.getElementById("archiveFilterCategory");
 
-    const categoryFilter =
-        document.getElementById(
-            "archiveFilterCategory"
-        );
+    const search = searchInput ? convertToLowerCase(searchInput.value) : "";
+    const selectedCategory = categoryFilter ? categoryFilter.value : "";
 
-    const search =
-        searchInput
-            ? convertToLowerCase(
-                searchInput.value
-            )
-            : "";
+    const filteredProducts = [];
 
-    const selectedCategory =
-        categoryFilter
-            ? categoryFilter.value
-            : "";
-
-    container.innerHTML = "";
-
-    let filteredCount = 0;
-
-    for (
-        let i = 0;
-        i < archivedProducts.length;
-        i++
-    ) {
-        const product =
-            archivedProducts[i];
-
-        let searchableVariants = "";
-
-        const sizes =
-            product.sizes || [];
-
-        const colors =
-            product.colors || [];
-
-        const scents =
-            product.scents || [];
-
-        for (
-            let j = 0;
-            j < sizes.length;
-            j++
-        ) {
-            searchableVariants +=
-                sizes[j] + " ";
-        }
-
-        for (
-            let j = 0;
-            j < colors.length;
-            j++
-        ) {
-            searchableVariants +=
-                colors[j] + " ";
-        }
-
-        for (
-            let j = 0;
-            j < scents.length;
-            j++
-        ) {
-            searchableVariants +=
-                scents[j] + " ";
-        }
+    for (let i = 0; i < archivedProducts.length; i++) {
+        const product = archivedProducts[i];
 
         const matchesSearch =
-            searchText(
-                product.name,
-                search
-            ) ||
-            searchText(
-                product.code,
-                search
-            ) ||
-            searchText(
-                searchableVariants,
-                search
-            );
+            searchText(product.name, search) ||
+            searchText(product.code, search);
 
         const matchesCategory =
-            selectedCategory === "" ||
-            product.category ===
-                selectedCategory;
+            selectedCategory === "" || product.category === selectedCategory;
 
-        if (
-            !matchesSearch ||
-            !matchesCategory
-        ) {
-            continue;
+        if (matchesSearch && matchesCategory) {
+            addToArray(filteredProducts, { product: product, index: i });
+        }
+    }
+
+    const count = document.getElementById("archiveRecordCount");
+
+    setRecordCount(count, filteredProducts.length);
+
+    if (filteredProducts.length === 0) {
+        container.innerHTML =
+            archivedProducts.length === 0
+                ? `<div class="empty-state">
+                       <div class="empty-icon">▣</div>
+                       <strong>The archive is empty</strong>
+                       <span>Products you delete are kept here so they can be restored with their stock.</span>
+                   </div>`
+                : `<div class="empty-state">
+                       <div class="empty-icon">⌕</div>
+                       <strong>No matching archived products</strong>
+                       <span>Try a different search or category.</span>
+                   </div>`;
+
+        return;
+    }
+
+    let cards = "";
+
+    for (let i = 0; i < filteredProducts.length; i++) {
+        const product = filteredProducts[i].product;
+        const index = filteredProducts[i].index;
+
+        const variants = product.inventoryVariants || [];
+        let units = 0;
+
+        for (let j = 0; j < variants.length; j++) {
+            units += Number(variants[j].quantity) || 0;
         }
 
-        filteredCount++;
+        const archivedDay = product.dateArchived
+            ? product.dateArchived.substring(0, 10)
+            : "";
 
-        let details =
-            "Price: ₱" +
-            formatPrice(
-                product.price
-            );
-
-        if (
-            product.sizes &&
-            product.sizes.length > 0
-        ) {
-            let sizeText = "";
-
-            for (
-                let j = 0;
-                j < product.sizes.length;
-                j++
-            ) {
-                if (j > 0) {
-                    sizeText += ", ";
-                }
-
-                sizeText +=
-                    product.sizes[j];
-            }
-
-            details +=
-                " · Size: " +
-                sizeText;
-        }
-
-        if (
-            product.colors &&
-            product.colors.length > 0
-        ) {
-            let colorText = "";
-
-            for (
-                let j = 0;
-                j < product.colors.length;
-                j++
-            ) {
-                if (j > 0) {
-                    colorText += ", ";
-                }
-
-                colorText +=
-                    product.colors[j];
-            }
-
-            details +=
-                " · Color: " +
-                colorText;
-        }
-
-        if (
-            product.scents &&
-            product.scents.length > 0
-        ) {
-            let scentText = "";
-
-            for (
-                let j = 0;
-                j < product.scents.length;
-                j++
-            ) {
-                if (j > 0) {
-                    scentText += ", ";
-                }
-
-                scentText +=
-                    product.scents[j];
-            }
-
-            details +=
-                " · Scent: " +
-                scentText;
-        }
-
-        let imageHTML = "";
-
-        if (product.image) {
-            imageHTML = `
-                <img
-                    class="archive-image"
-                    src="${escapeHTML(product.image)}"
-                    alt="${escapeHTML(product.name)}"
-                >
-            `;
-        } else {
-            imageHTML = `
-                <div class="archive-image-placeholder">
-                    No Image
+        const facts = variants.length > 0
+            ? `
+                <div class="ar-facts">
+                    <div>
+                        <span>Variants</span>
+                        <strong>${variants.length}</strong>
+                    </div>
+                    <div>
+                        <span>Stock kept</span>
+                        <strong>${units} ${units === 1 ? "unit" : "units"}</strong>
+                    </div>
                 </div>
-            `;
-        }
+            `
+            : "";
 
-        container.innerHTML += `
-            <div class="archive-card">
+        cards += `
+            <article class="ar-card">
 
-                ${imageHTML}
+                <div class="ar-media ${product.image ? "" : "no-image"}">
+                    ${
+                        product.image
+                            ? `<img
+                                   src="${escapeHTML(product.image)}"
+                                   alt="${escapeHTML(product.name)}"
+                                   onerror="showImageFallback(this)">`
+                            : ""
+                    }
+                    <span class="ar-initials">
+                        ${escapeHTML(getProductInitials(product.name))}
+                    </span>
+                    ${
+                        getProductImages(product).length > 1
+                            ? `<span class="ar-photos">${getProductImages(product).length} photos</span>`
+                            : ""
+                    }
+                </div>
 
-                <div class="archive-card-body">
+                <div class="ar-body">
 
-                    <div class="archive-top">
-
-                        <span class="archive-code">
-                            ${escapeHTML(product.code)}
-                        </span>
-
-                        <span class="category">
-                            ${escapeHTML(product.category)}
-                        </span>
-
+                    <div class="ar-top">
+                        <span class="ar-code">${escapeHTML(product.code)}</span>
+                        <span class="ar-category">${escapeHTML(product.category)}</span>
                     </div>
 
-                    <h3>
-                        ${escapeHTML(product.name)}
-                    </h3>
+                    <h3>${escapeHTML(product.name)}</h3>
 
-                    <p class="archive-details">
-                        ${escapeHTML(details)}
-                    </p>
+                    <div class="ar-price">₱${formatPrice(product.price)}</div>
 
-                    <p class="archive-date">
-                        Archived:
-                        ${escapeHTML(product.dateArchived)}
-                    </p>
+                    ${facts}
 
-                    <div class="archive-actions">
-
-                        <button
-                            class="restore-btn"
-                            onclick="restoreArchivedProduct(${i})">
-                            Restore
-                        </button>
-
-                        <button
-                            class="delete-btn"
-                            onclick="deleteArchivedProduct(${i})">
-                            Delete Permanently
-                        </button>
-
-                    </div>
+                    ${
+                        archivedDay
+                            ? `<div class="ar-when">
+                                   Archived ${escapeHTML(formatFriendlyDate(archivedDay))}
+                                   • ${escapeHTML(describeDaysFromToday(archivedDay))}
+                               </div>`
+                            : ""
+                    }
 
                 </div>
 
-            </div>
+                <div class="ar-actions">
+                    <button type="button" class="ar-restore" onclick="restoreArchivedProduct(${index})">
+                        Restore
+                    </button>
+                    <button type="button" class="ar-delete" onclick="deleteArchivedProduct(${index})" title="Permanently delete this product">
+                        Delete forever
+                    </button>
+                </div>
+
+            </article>
         `;
     }
 
-    const archiveCount =
-        document.getElementById(
-            "archiveRecordCount"
-        );
-
-    if (archiveCount) {
-        archiveCount.textContent =
-            filteredCount +
-            (
-                filteredCount === 1
-                    ? " Record"
-                    : " Records"
-            );
-    }
-
-    if (filteredCount === 0) {
-        container.innerHTML = `
-            <div class="empty">
-                No archived products found.
-            </div>
-        `;
-    }
+    container.innerHTML = cards;
 }
 
 function restoreArchivedProduct(
@@ -3128,38 +3743,17 @@ function restoreArchivedProduct(
         return;
     }
 
-    let duplicate = null;
-
-    for (
-        let i = 0;
-        i < products.length;
-        i++
-    ) {
-        if (
-            products[i].id ===
-            product.id
-        ) {
-            duplicate =
-                products[i];
-
-            break;
-        }
-    }
-
-    if (duplicate) {
-        alert(
-            "This product already exists."
-        );
-
-        return;
-    }
-
     const restoredProduct = {
         id:
             product.id,
 
         image:
             product.image,
+
+        images:
+            cloneProductArray(
+                getProductImages(product)
+            ),
 
         code:
             product.code,
@@ -3229,13 +3823,16 @@ function restoreArchivedProduct(
                         ),
 
                     color:
-                        variant.color || "",
+                        variant.color ||
+                        "",
 
                     size:
-                        variant.size || "",
+                        variant.size ||
+                        "",
 
                     scent:
-                        variant.scent || "",
+                        variant.scent ||
+                        "",
 
                     quantity:
                         Number(
@@ -3248,7 +3845,21 @@ function restoreArchivedProduct(
                             ? Number(
                                 variant.threshold
                             )
-                            : DEFAULT_THRESHOLD
+                            : DEFAULT_THRESHOLD,
+
+                    lastRestocked:
+                        variant.lastRestocked ||
+                        "",
+
+                    nextRestock:
+                        variant.nextRestock ||
+                        "",
+
+                    restockTracking:
+                        cloneRestockTracking(
+                            variant.restockTracking,
+                            variant.quantity
+                        )
                 }
             );
         }
@@ -3326,15 +3937,24 @@ function deleteArchivedProduct(
         return;
     }
 
+    addAuditRecord(
+        product,
+        "Deleted",
+        "Permanently deleted from Product Archive"
+    );
+
     removeFromArray(
         archivedProducts,
         index
     );
 
     displayArchivedProducts();
+    updateAudit();
 }
 
-function getLowStockVariants(item) {
+function getLowStockVariants(
+    item
+) {
     const variants =
         item.variants || [];
 
@@ -3371,11 +3991,15 @@ function getLowStockVariants(item) {
     return lowVariants;
 }
 
-function getStatus(item) {
+function getStatus(
+    item
+) {
     const variants =
         item.variants || [];
 
-    if (variants.length === 0) {
+    if (
+        variants.length === 0
+    ) {
         return "out";
     }
 
@@ -3400,7 +4024,9 @@ function getStatus(item) {
                 )
                 : DEFAULT_THRESHOLD;
 
-        if (quantity > 0) {
+        if (
+            quantity > 0
+        ) {
             allOut = false;
         }
 
@@ -3411,7 +4037,9 @@ function getStatus(item) {
             hasLow = true;
         }
 
-        if (quantity === 0) {
+        if (
+            quantity === 0
+        ) {
             hasLow = true;
         }
     }
@@ -3427,12 +4055,18 @@ function getStatus(item) {
     return "available";
 }
 
-function getStatusText(status) {
-    if (status === "out") {
+function getStatusText(
+    status
+) {
+    if (
+        status === "out"
+    ) {
         return "Out of Stock";
     }
 
-    if (status === "low") {
+    if (
+        status === "low"
+    ) {
         return "Low Stock";
     }
 
@@ -3457,7 +4091,10 @@ function updateSummary() {
                 inventory[i]
             );
 
-        if (status === "available") {
+        if (
+            status ===
+            "available"
+        ) {
             available++;
         } else if (
             status === "low"
@@ -3534,9 +4171,11 @@ function findRestockRecord(
         i++
     ) {
         if (
-            restockRecords[i].productId ===
+            restockRecords[i]
+                .productId ===
                 productId &&
-            restockRecords[i].variantKey ===
+            restockRecords[i]
+                .variantKey ===
                 variantKey
         ) {
             return restockRecords[i];
@@ -3552,7 +4191,9 @@ function createAutomaticRestock(
 ) {
     const variantKey =
         variant.key ||
-        getVariantKey(variant);
+        getVariantKey(
+            variant
+        );
 
     const existing =
         findRestockRecord(
@@ -3577,7 +4218,9 @@ function createAutomaticRestock(
         (threshold * 2) -
         currentQuantity;
 
-    if (quantityToAdd < 1) {
+    if (
+        quantityToAdd < 1
+    ) {
         quantityToAdd = 1;
     }
 
@@ -3590,6 +4233,31 @@ function createAutomaticRestock(
 
         existing.quantity =
             quantityToAdd;
+
+        copyRestockDatesToRecord(
+            existing,
+            variant
+        );
+
+        if (
+            currentQuantity <=
+            threshold
+        ) {
+            // dropped below the threshold again after a restock: new trigger
+            if (
+                existing.status ===
+                "Restocked"
+            ) {
+                existing.date =
+                    getDateTime();
+            }
+
+            existing.status =
+                "Automatic Restock";
+        } else {
+            existing.status =
+                "Restocked";
+        }
 
         return;
     }
@@ -3629,6 +4297,27 @@ function createAutomaticRestock(
 
             date:
                 getDateTime(),
+
+            lastRestocked:
+                variant.lastRestocked ||
+                "",
+
+            nextRestock:
+                variant.nextRestock ||
+                "",
+
+            nextRestockType:
+                variant.nextRestockType ||
+                "unknown",
+
+            nextRestockNote:
+                variant.nextRestockNote ||
+                "",
+
+            stockedSince:
+                variant.restockTracking
+                    ? variant.restockTracking.baseDate
+                    : "",
 
             status:
                 "Automatic Restock"
@@ -3678,6 +4367,10 @@ function checkAutomaticRestock() {
             const variant =
                 variants[j];
 
+            refreshRestockDates(
+                variant
+            );
+
             const quantity =
                 Number(
                     variant.quantity
@@ -3702,8 +4395,15 @@ function checkAutomaticRestock() {
                 "|" +
                 variantKey;
 
+            const existing =
+                findRestockRecord(
+                    item.productId,
+                    variantKey
+                );
+
             if (
-                quantity <= threshold
+                quantity <=
+                threshold
             ) {
                 addToArray(
                     activeKeys,
@@ -3714,29 +4414,61 @@ function checkAutomaticRestock() {
                     item,
                     variant
                 );
+            } else if (
+                existing
+            ) {
+                existing.currentQuantity =
+                    quantity;
+
+                existing.threshold =
+                    threshold;
+
+                existing.quantity =
+                    0;
+
+                copyRestockDatesToRecord(
+                    existing,
+                    variant
+                );
+
+                existing.status =
+                    "Restocked";
             }
         }
     }
 
     for (
-        let i = restockRecords.length - 1;
+        let i =
+            restockRecords.length - 1;
         i >= 0;
         i--
     ) {
         const record =
             restockRecords[i];
 
-        const key =
-            record.productId +
-            "|" +
-            record.variantKey;
+        let stillExists =
+            false;
 
-        if (
-            !activeKeyExists(
-                activeKeys,
-                key
-            )
+        for (
+            let j = 0;
+            j < inventory.length;
+            j++
         ) {
+            if (
+                String(
+                    inventory[j]
+                        .productId
+                ) ===
+                String(
+                    record.productId
+                )
+            ) {
+                stillExists = true;
+                break;
+            }
+        }
+
+        if (!stillExists) {
             removeFromArray(
                 restockRecords,
                 i
@@ -3843,7 +4575,9 @@ function renderInventory() {
         filteredCount++;
 
         const statusText =
-            getStatusText(status);
+            getStatusText(
+                status
+            );
 
         const totalStock =
             getTotalStock(item);
@@ -3856,7 +4590,9 @@ function renderInventory() {
         let previewLimit =
             variantCount;
 
-        if (previewLimit > 3) {
+        if (
+            previewLimit > 3
+        ) {
             previewLimit = 3;
         }
 
@@ -3878,10 +4614,14 @@ function renderInventory() {
 
         let extraVariants = "";
 
-        if (variantCount > 3) {
+        if (
+            variantCount > 3
+        ) {
             extraVariants =
                 " + " +
-                (variantCount - 3) +
+                (
+                    variantCount - 3
+                ) +
                 " more";
         }
 
@@ -3892,12 +4632,12 @@ function renderInventory() {
 
                     <div class="product-cell">
 
-                       <div class="product-symbol">
-                                ${escapeHTML(
+                        <div class="product-symbol">
+                            ${escapeHTML(
                                 getProductInitials(
                                     item.name
-                                    )
-                                )}
+                                )
+                            )}
                         </div>
 
                         <div>
@@ -3979,7 +4719,8 @@ function renderInventory() {
                         class="stock-btn"
                         onclick="openStockModal('${escapeHTML(
                             String(item.id)
-                        )}')">
+                        )}')"
+                    >
                         View Stock
                     </button>
 
@@ -3989,7 +4730,9 @@ function renderInventory() {
         `;
     }
 
-    if (filteredCount === 0) {
+    if (
+        filteredCount === 0
+    ) {
         inventoryBody.innerHTML = `
             <tr class="empty-row">
 
@@ -4021,16 +4764,281 @@ function renderInventory() {
     renderRestocking();
 }
 
+// Groups restock records by product so each product gets one card.
+// Products that still need restocking come first, and inside a product
+// the variants that need restocking come before the ones already restocked.
+function getRestockGroups() {
+    const groups = [];
+
+    for (let i = 0; i < restockRecords.length; i++) {
+        const record = restockRecords[i];
+        let group = null;
+
+        for (let j = 0; j < groups.length; j++) {
+            if (String(groups[j].productId) === String(record.productId)) {
+                group = groups[j];
+                break;
+            }
+        }
+
+        if (!group) {
+            group = {
+                productId: record.productId,
+                productName: record.productName,
+                productCode: record.productCode,
+                triggered: [],
+                restocked: []
+            };
+
+            addToArray(groups, group);
+        }
+
+        if (record.status === "Restocked") {
+            addToArray(group.restocked, record);
+        } else {
+            addToArray(group.triggered, record);
+        }
+    }
+
+    const ordered = [];
+
+    for (let i = 0; i < groups.length; i++) {
+        if (groups[i].triggered.length > 0) {
+            addToArray(ordered, groups[i]);
+        }
+    }
+
+    for (let i = 0; i < groups.length; i++) {
+        if (groups[i].triggered.length === 0) {
+            addToArray(ordered, groups[i]);
+        }
+    }
+
+    return ordered;
+}
+
+function buildRestockRow(record) {
+    const isRestocked = record.status === "Restocked";
+    const isOut = !isRestocked && record.currentQuantity === 0;
+
+    let pillClass = "";
+    let pillText = "Restock triggered";
+
+    if (isRestocked) {
+        pillClass = "done";
+        pillText = "Restocked";
+    } else if (isOut) {
+        pillClass = "out";
+        pillText = "Out of stock";
+    }
+
+    // the meter is full at twice the threshold, so the tick sits at the threshold
+    let maxValue = record.threshold * 2;
+
+    if (maxValue < 1) {
+        maxValue = 1;
+    }
+
+    let percent = (record.currentQuantity / maxValue) * 100;
+
+    if (percent > 100) {
+        percent = 100;
+    }
+
+    percent = percent - (percent % 1);
+
+    let lastValue = "No restock yet";
+    let lastNote = "";
+
+    if (record.lastRestocked) {
+        lastValue = formatFriendlyDate(record.lastRestocked);
+        lastNote = firstLetterUpper(describeDaysFromToday(record.lastRestocked));
+    } else if (record.stockedSince) {
+        lastNote = "In stock since " + formatFriendlyDate(record.stockedSince);
+    }
+
+    let nextValue = "Not enough data";
+
+    if (record.nextRestock) {
+        nextValue = formatFriendlyDate(record.nextRestock);
+    } else if (record.nextRestockType === "far") {
+        nextValue = "Not needed soon";
+    }
+
+    const overdue =
+        record.nextRestockType === "expected" &&
+        record.nextRestock &&
+        getDaysBetween(getDateOnly(), record.nextRestock) < 0;
+
+    const nextLabel =
+        record.nextRestockType === "expected"
+            ? "Expected restock"
+            : "Possible next restock";
+
+    return `
+        <div class="rs-row">
+
+            <div class="rs-cell rs-variant">
+                <strong>${escapeHTML(record.variantLabel)}</strong>
+                <span class="rs-pill ${pillClass}">${pillText}</span>
+            </div>
+
+            <div class="rs-cell rs-stock" data-label="Stock">
+                <strong>${record.currentQuantity}</strong>
+                <span>min ${record.threshold}</span>
+                <div class="rs-meter ${pillClass}">
+                    <i style="width: ${percent}%"></i>
+                </div>
+            </div>
+
+            <div class="rs-cell" data-label="To order">
+                ${
+                    isRestocked
+                        ? `<span class="rs-muted">—</span>`
+                        : `<span class="rs-add">+${record.quantity}</span>`
+                }
+            </div>
+
+            <div class="rs-cell" data-label="Last restocked">
+                <strong>${escapeHTML(lastValue)}</strong>
+                ${lastNote ? `<small>${escapeHTML(lastNote)}</small>` : ""}
+            </div>
+
+            <div class="rs-cell rs-next ${overdue ? "overdue" : ""}" data-label="${nextLabel}">
+                <strong>${escapeHTML(nextValue)}</strong>
+                ${
+                    record.nextRestockNote
+                        ? `<small>${escapeHTML(record.nextRestockNote)}</small>`
+                        : ""
+                }
+            </div>
+
+        </div>
+    `;
+}
+
+function buildRestockCard(group) {
+    const totalVariants = group.triggered.length + group.restocked.length;
+    const needCount = group.triggered.length;
+
+    let hasOut = false;
+    let totalToOrder = 0;
+    let latestTrigger = "";
+
+    for (let i = 0; i < group.triggered.length; i++) {
+        const record = group.triggered[i];
+
+        if (record.currentQuantity === 0) {
+            hasOut = true;
+        }
+
+        totalToOrder += record.quantity;
+
+        const triggerDate = record.date ? record.date.substring(0, 10) : "";
+
+        if (
+            triggerDate &&
+            (!latestTrigger || getDaysBetween(latestTrigger, triggerDate) > 0)
+        ) {
+            latestTrigger = triggerDate;
+        }
+    }
+
+    let badgeClass = "";
+    let badgeText = needCount + " of " + totalVariants + " need restocking";
+
+    if (needCount === 0) {
+        badgeClass = "done";
+        badgeText = "All restocked";
+    } else if (hasOut) {
+        badgeClass = "out";
+    }
+
+    let rows = "";
+
+    for (let i = 0; i < group.triggered.length; i++) {
+        rows += buildRestockRow(group.triggered[i]);
+    }
+
+    for (let i = 0; i < group.restocked.length; i++) {
+        rows += buildRestockRow(group.restocked[i]);
+    }
+
+    let footer = "";
+
+    if (needCount > 0) {
+        footer = `
+            <div class="rs-card-footer">
+                <div class="rs-footer-left">
+                    <i>✓</i>
+                    <span><strong>Supplier automatically notified</strong></span>
+                </div>
+                <div class="rs-footer-right">
+                    Total to order <strong>${totalToOrder} units</strong>
+                    ${
+                        latestTrigger
+                            ? ` • Triggered <strong>${escapeHTML(formatFriendlyDate(latestTrigger))}</strong>`
+                            : ""
+                    }
+                </div>
+            </div>
+        `;
+    } else {
+        footer = `
+            <div class="rs-card-footer">
+                <div class="rs-footer-left">
+                    <i>✓</i>
+                    <span><strong>All variants are back above their threshold</strong></span>
+                </div>
+            </div>
+        `;
+    }
+
+    return `
+        <div class="rs-card ${needCount === 0 ? "all-done" : ""}">
+
+            <div class="rs-card-header">
+
+                <div class="rs-product">
+                    <div class="rs-product-icon">
+                        ${escapeHTML(getProductInitials(group.productName))}
+                    </div>
+                    <div>
+                        <h3>${escapeHTML(group.productName)}</h3>
+                        <span>
+                            ${escapeHTML(group.productCode)} •
+                            ${totalVariants} ${totalVariants === 1 ? "variant" : "variants"}
+                        </span>
+                    </div>
+                </div>
+
+                <div class="rs-badge ${badgeClass}">${badgeText}</div>
+
+            </div>
+
+            <div class="rs-table">
+
+                <div class="rs-row rs-head">
+                    <div>Variant</div>
+                    <div>Stock</div>
+                    <div>To order</div>
+                    <div>Last restocked</div>
+                    <div>Next restock</div>
+                </div>
+
+                ${rows}
+
+            </div>
+
+            ${footer}
+
+        </div>
+    `;
+}
+
 function renderRestocking() {
     const restockList =
-        document.getElementById(
-            "restockList"
-        );
-
-    const restockEmpty =
-        document.getElementById(
-            "restockEmpty"
-        );
+        document.getElementById("restockList");
 
     if (!restockList) {
         return;
@@ -4038,190 +5046,34 @@ function renderRestocking() {
 
     checkAutomaticRestock();
 
-    if (
-        restockRecords.length ===
-        0
-    ) {
-        restockList.innerHTML = "";
-
-        if (restockEmpty) {
-            restockEmpty.style.display =
-                "flex";
-
-            restockList.appendChild(
-                restockEmpty
-            );
-        }
+    if (restockRecords.length === 0) {
+        restockList.innerHTML = `
+            <div class="restock-empty" id="restockEmpty">
+                <div class="empty-icon">↻</div>
+                <strong>No restocking activity</strong>
+                <span>
+                    Automatic restocking records will appear here when an item reaches its threshold.
+                </span>
+            </div>
+        `;
 
         return;
     }
 
-    if (restockEmpty) {
-        restockEmpty.style.display =
-            "none";
-    }
+    const groups = getRestockGroups();
 
     let cards = "";
 
-    for (
-        let i = 0;
-        i < restockRecords.length;
-        i++
-    ) {
-        const record =
-            restockRecords[i];
-
-        cards += `
-            <div class="restock-card">
-
-                <div class="restock-card-header">
-
-                    <div class="restock-product">
-
-                        <div class="restock-product-icon">
-                                ${escapeHTML(
-                                    getProductInitials(
-                                    record.productName
-                                    )
-                                )}
-                        </div>
-
-                        <div class="restock-product-info">
-
-                            <h3>
-                                ${escapeHTML(
-                                    record.productName
-                                )}
-                            </h3>
-
-                            <div class="restock-product-meta">
-
-                                <span>
-                                    ${escapeHTML(
-                                        record.productCode
-                                    )}
-                                </span>
-
-                                <span class="restock-meta-divider">
-                                    •
-                                </span>
-
-                                <span>
-                                    ${escapeHTML(
-                                        record.variantLabel
-                                    )}
-                                </span>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                    <div class="restock-trigger-badge">
-                        <span class="restock-trigger-dot"></span>
-                        Restock Triggered
-                    </div>
-
-                </div>
-
-                <div class="restock-stats">
-
-                    <div class="restock-stat">
-
-                        <span class="restock-stat-label">
-                            Current Stock
-                        </span>
-
-                        <strong>
-                            ${record.currentQuantity}
-                        </strong>
-
-                        <span class="restock-stat-unit">
-                            units remaining
-                        </span>
-
-                    </div>
-
-                    <div class="restock-stat">
-
-                        <span class="restock-stat-label">
-                            Stock Threshold
-                        </span>
-
-                        <strong>
-                            ${record.threshold}
-                        </strong>
-
-                        <span class="restock-stat-unit">
-                            minimum units
-                        </span>
-
-                    </div>
-
-                    <div class="restock-stat restock-stat-highlight">
-
-                        <span class="restock-stat-label">
-                            Suggested Restock
-                        </span>
-
-                        <strong>
-                            ${record.quantity}
-                        </strong>
-
-                        <span class="restock-stat-unit">
-                            units to add
-                        </span>
-
-                    </div>
-
-                </div>
-
-                <div class="restock-card-footer">
-
-                    <div class="restock-notification">
-
-                        <div class="restock-check">
-                            ✓
-                        </div>
-
-                        <div>
-                            <strong>
-                                Supplier automatically notified
-                            </strong>
-
-                            <span>
-                                Restocking was triggered because stock reached its threshold.
-                            </span>
-                        </div>
-
-                    </div>
-
-                    <div class="restock-date">
-
-                        <span>
-                            Triggered
-                        </span>
-
-                        <strong>
-                            ${escapeHTML(
-                                record.date
-                            )}
-                        </strong>
-
-                    </div>
-
-                </div>
-
-            </div>
-        `;
+    for (let i = 0; i < groups.length; i++) {
+        cards += buildRestockCard(groups[i]);
     }
 
-    restockList.innerHTML =
-        cards;
+    restockList.innerHTML = cards;
 }
 
-function openStockModal(id) {
+function openStockModal(
+    id
+) {
     let item = null;
 
     for (
@@ -4293,50 +5145,18 @@ function openStockModal(id) {
 
     if (stockProductIcon) {
         stockProductIcon.textContent =
-        getProductInitials(
-            item.name
-        );
-}
-
-
+            getProductInitials(
+                item.name
+            );
+    }
 
     if (stockMessage) {
         stockMessage.textContent =
             "";
-    }
 
-    const oldQuantityField =
-        document.getElementById(
-            "stockQuantity"
+        stockMessage.classList.remove(
+            "stock-save-success"
         );
-
-    if (oldQuantityField) {
-        const parent =
-            oldQuantityField.closest(
-                ".field"
-            );
-
-        if (parent) {
-            parent.style.display =
-                "none";
-        }
-    }
-
-    const oldThresholdField =
-        document.getElementById(
-            "stockThreshold"
-        );
-
-    if (oldThresholdField) {
-        const parent =
-            oldThresholdField.closest(
-                ".field"
-            );
-
-        if (parent) {
-            parent.style.display =
-                "none";
-        }
     }
 
     let variantContainer =
@@ -4359,21 +5179,12 @@ function openStockModal(id) {
             );
 
         if (stockForm) {
-            const formActions =
+            stockForm.insertBefore(
+                variantContainer,
                 stockForm.querySelector(
-                    ".form-actions"
-                );
-
-            if (formActions) {
-                stockForm.insertBefore(
-                    variantContainer,
-                    formActions
-                );
-            } else {
-                stockForm.appendChild(
-                    variantContainer
-                );
-            }
+                    ".modal-actions"
+                )
+            );
         }
     }
 
@@ -4421,14 +5232,22 @@ function openStockModal(id) {
         let statusText =
             "In Stock";
 
-        if (quantity === 0) {
-            statusClass = "out";
+        if (
+            quantity === 0
+        ) {
+            statusClass =
+                "out";
+
             statusText =
                 "Out of Stock";
+
         } else if (
-            quantity <= threshold
+            quantity <=
+            threshold
         ) {
-            statusClass = "low";
+            statusClass =
+                "low";
+
             statusText =
                 "Low Stock";
         }
@@ -4437,6 +5256,7 @@ function openStockModal(id) {
             <div class="variant-stock-row">
 
                 <div class="variant-stock-name">
+
                     <strong>
                         ${escapeHTML(
                             getVariantLabel(
@@ -4448,9 +5268,11 @@ function openStockModal(id) {
                     <span class="variant-stock-status ${statusClass}">
                         ${statusText}
                     </span>
+
                 </div>
 
                 <div class="stock-input-group">
+
                     <label>
                         Stock
                     </label>
@@ -4462,9 +5284,11 @@ function openStockModal(id) {
                         data-variant-index="${i}"
                         class="variant-stock-input"
                     >
+
                 </div>
 
                 <div class="stock-input-group">
+
                     <label>
                         Threshold
                     </label>
@@ -4476,6 +5300,7 @@ function openStockModal(id) {
                         data-variant-index="${i}"
                         class="variant-threshold-input"
                     >
+
                 </div>
 
             </div>
@@ -4517,7 +5342,7 @@ const stockForm =
 if (stockForm) {
     stockForm.addEventListener(
         "submit",
-        function (event) {
+        function(event) {
             event.preventDefault();
 
             const id =
@@ -4657,9 +5482,10 @@ if (stockForm) {
                     threshold;
 
                 const row =
-                    quantityInputs[i].closest(
-                        ".variant-stock-row"
-                    );
+                    quantityInputs[i]
+                        .closest(
+                            ".variant-stock-row"
+                        );
 
                 const oldNote =
                     row
@@ -4727,42 +5553,27 @@ if (stockForm) {
 
                 variant.threshold =
                     threshold;
+
+                if (
+                    quantity >
+                    oldQuantity
+                ) {
+                    recordVariantRestock(
+                        variant,
+                        quantity
+                    );
+                }
             }
 
-            if (changedCount > 0) {
+            if (
+                changedCount > 0
+            ) {
                 message.innerHTML =
-                    "✓ Stock changes saved successfully.";
+                    "Stock changes saved successfully.";
 
                 message.classList.add(
                     "stock-save-success"
                 );
-
-                const saveButton =
-                    stockForm.querySelector(
-                        ".modal-save-btn"
-                    );
-
-                if (saveButton) {
-                    saveButton.textContent =
-                        "Done";
-
-                    saveButton.type =
-                        "button";
-
-                    saveButton.onclick =
-                        function () {
-                            closeStockModal();
-
-                            saveButton.type =
-                                "submit";
-
-                            saveButton.textContent =
-                                "Save Changes";
-
-                            saveButton.onclick =
-                                null;
-                        };
-                }
             } else {
                 message.textContent =
                     "No stock changes were made.";
@@ -4787,7 +5598,7 @@ const stockModal =
 if (stockModal) {
     stockModal.addEventListener(
         "click",
-        function (event) {
+        function(event) {
             if (
                 event.target ===
                 stockModal
@@ -4832,7 +5643,9 @@ function showProductPage(
     let selectedPageId =
         "inventoryPage";
 
-    if (page === "products") {
+    if (
+        page === "products"
+    ) {
         selectedPageId =
             "productsPage";
     } else if (
@@ -4875,61 +5688,69 @@ function showProductPage(
         );
     }
 
-const inventoryNav =
-    document.getElementById(
-        "inventoryNav"
-    );
+    const inventoryNav =
+        document.getElementById(
+            "inventoryNav"
+        );
 
-const productManagementNav =
-    document.getElementById(
-        "productManagementNav"
-    );
+    const productManagementNav =
+        document.getElementById(
+            "productManagementNav"
+        );
 
-const productMenu =
-    document.getElementById(
-        "productMenu"
-    );
+    const productMenu =
+        document.getElementById(
+            "productMenu"
+        );
 
-const productToggle =
-    document.getElementById(
-        "productToggle"
-    );
+    const productToggle =
+        document.getElementById(
+            "productToggle"
+        );
 
-if (inventoryNav) {
-    inventoryNav.classList.toggle(
-        "active",
+    if (inventoryNav) {
+        inventoryNav.classList.toggle(
+            "active",
+            page === "inventory"
+        );
+    }
+
+    if (productManagementNav) {
+        productManagementNav.classList.toggle(
+            "active",
+            page !== "inventory"
+        );
+    }
+
+    if (
         page === "inventory"
-    );
-}
+    ) {
+        if (productMenu) {
+            productMenu.style.display =
+                "none";
+        }
 
-if (productManagementNav) {
-    productManagementNav.classList.toggle(
-        "active",
-        page !== "inventory"
-    );
-}
-
-if (page === "inventory") {
-    if (productMenu) {
-        productMenu.style.display =
-            "none";
+        if (productToggle) {
+            productToggle.textContent =
+                "+";
+        }
     }
 
-    if (productToggle) {
-        productToggle.textContent =
-            "+";
-    }
-}
-
-    if (page === "audit") {
+    if (
+        page === "audit"
+    ) {
         updateAudit();
     }
 
-    if (page === "archive") {
+    if (
+        page === "archive"
+    ) {
         displayArchivedProducts();
     }
 
-    if (page === "inventory") {
+    if (
+        page === "inventory"
+    ) {
         renderInventory();
     }
 
@@ -5128,7 +5949,7 @@ const productForm =
 if (productForm) {
     productForm.addEventListener(
         "submit",
-        function (event) {
+        function(event) {
             event.preventDefault();
             addProduct();
         }
@@ -5138,54 +5959,41 @@ if (productForm) {
 if (productImage) {
     productImage.addEventListener(
         "change",
-        function () {
-            const file =
-                productImage.files[0];
+        function() {
+            addFormImages(productImage.files);
 
-            if (file) {
-                imagePreview.src =
-                    URL.createObjectURL(
-                        file
-                    );
-
-                imagePreview.style.display =
-                    "block";
-
-                if (uploadText) {
-                    uploadText.style.display =
-                        "none";
-                }
-            }
+            // reset so picking the same file again still fires "change"
+            productImage.value = "";
         }
     );
 }
+
+const productImageZone = document.getElementById("productImageZone");
+
+if (productImageZone) {
+    const highlightEvents = ["dragenter", "dragover"];
+    const unhighlightEvents = ["dragleave", "drop"];
+
+    for (let i = 0; i < highlightEvents.length; i++) {
+        productImageZone.addEventListener(highlightEvents[i], function() {
+            productImageZone.classList.add("dragover");
+        });
+    }
+
+    for (let i = 0; i < unhighlightEvents.length; i++) {
+        productImageZone.addEventListener(unhighlightEvents[i], function() {
+            productImageZone.classList.remove("dragover");
+        });
+    }
+}
+
+renderImageGrid();
 
 if (category) {
     category.addEventListener(
         "change",
-        function () {
+        function() {
             updateVariantFields();
-        }
-    );
-}
-
-const productNameInput =
-    document.getElementById(
-        "productName"
-    );
-
-if (productNameInput) {
-    productNameInput.addEventListener(
-        "input",
-        function () {
-            if (
-                category.value ===
-                "Clothing"
-            ) {
-                updateVariantFields(
-                    true
-                );
-            }
         }
     );
 }
@@ -5202,7 +6010,6 @@ for (
 }
 
 updateVariantFields();
-
 displayProducts();
 displayAudit();
 displayArchivedProducts();
