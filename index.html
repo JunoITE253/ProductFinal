@@ -31,17 +31,16 @@
     <div class="product-section">
 
         <a href="#"
-            class="nav"
-            id="productManagementNav"
-            onclick="toggleProductMenu(event)">
-             Product Management
-        <span id="productToggle">+</span>
+           class="nav"
+           id="productManagementNav"
+           onclick="toggleProductMenu(event)">
+            Product Management
+            <span id="productToggle">+</span>
         </a>
 
-<div
-    class="subnav-menu"
-    id="productMenu"
-    style="display: none;">
+        <div class="subnav-menu"
+             id="productMenu"
+             style="display: none;">
 
             <a href="#"
                class="subnav active"
@@ -98,87 +97,179 @@
                 <p>Enter the details of the product.</p>
             </div>
 
-            <form id="productForm" onsubmit="event.preventDefault(); addProduct();">
+            <form id="productForm" novalidate>
 
-                <div class="form-grid">
+                <div class="edit-banner" id="editBanner">
+                    <span>Editing <strong id="editBannerName"></strong></span>
+                    <button type="button" onclick="clearForm()">Cancel edit</button>
+                </div>
 
-                    <div class="field">
-                        <label for="productCode">Product Code</label>
-                        <input
-                            type="text"
-                            id="productCode"
-                            placeholder="e.g. LL-001">
-                    </div>
+                <div class="form-block">
 
-                    <div class="field">
-                        <label for="productName">Product Name</label>
-                        <input
-                            type="text"
-                            id="productName"
-                            placeholder="Enter product name">
-                    </div>
-
-                    <div class="field">
-                        <label for="category">Category</label>
-                        <select id="category">
-                            <option value="">Select category</option>
-                            <option value="Bags">Bags</option>
-                            <option value="Clothing">Clothing</option>
-                            <option value="Perfumes">Perfumes</option>
-                            <option value="Body Care Products">Body Care Products</option>
-                        </select>
-                    </div>
-
-                    <div class="field">
-                        <label for="price">Price</label>
-                        <input
-                            type="number"
-                            id="price"
-                            min="0"
-                            step="0.01"
-                            placeholder="₱0.00">
-                    </div>
-
-                    <div class="field variant-field" id="sizeGroup">
-                        <label>Sizes</label>
-                        <div class="variant-options" id="sizeOptions"></div>
-                    </div>
-
-                    <div class="field variant-field" id="colorGroup">
-                        <label>Colors</label>
-                        <div class="variant-options" id="colorOptions"></div>
-                    </div>
-
-                    <div class="field variant-field full" id="scentGroup">
-                        <label>Scents</label>
-                        <div class="variant-options" id="scentOptions"></div>
-                    </div>
-
-                    <div class="field full">
-                        <label for="productImage">Product Image</label>
-
-                        <div class="upload-box">
-
-                            <input
-                                type="file"
-                                id="productImage"
-                                accept="image/*">
-
-                            <div class="upload-content">
-                                <span class="upload-icon">＋</span>
-
-                                <span id="uploadText">
-                                    Upload product image
-                                </span>
-
-                                <img
-                                    id="imagePreview"
-                                    src=""
-                                    alt="Product Preview">
-                            </div>
-
+                    <div class="block-head">
+                        <span class="block-num">1</span>
+                        <div>
+                            <h3>Basic details</h3>
+                            <p>Each product needs its own unique code.</p>
                         </div>
                     </div>
+
+                    <div class="form-grid">
+
+                        <div class="field">
+                            <label for="productCode">Product Code</label>
+                            <input
+                                type="text"
+                                id="productCode"
+                                autocomplete="off"
+                                placeholder="e.g. LL-001"
+                                oninput="checkProductCode()">
+                            <span class="field-error" id="productCodeError"></span>
+                        </div>
+
+                        <div class="field">
+                            <label for="productName">Product Name</label>
+                            <input
+                                type="text"
+                                id="productName"
+                                autocomplete="off"
+                                placeholder="Enter product name"
+                                oninput="clearFieldError('productName')">
+                            <span class="field-error" id="productNameError"></span>
+                        </div>
+
+                        <div class="field">
+                            <label for="category">Category</label>
+                            <select id="category" onchange="clearFieldError('category')">
+                                <option value="">Select category</option>
+                                <option value="Bags">Bags</option>
+                                <option value="Clothing">Clothing</option>
+                                <option value="Perfumes">Perfumes</option>
+                                <option value="Body Care Products">Body Care Products</option>
+                            </select>
+                            <span class="field-error" id="categoryError"></span>
+                        </div>
+
+                        <div class="field">
+                            <label for="price">Price</label>
+                            <div class="input-affix">
+                                <span class="affix">₱</span>
+                                <input
+                                    type="text"
+                                    id="price"
+                                    inputmode="numeric"
+                                    autocomplete="off"
+                                    maxlength="12"
+                                    placeholder="0"
+                                    onkeydown="blockPriceKeys(event)"
+                                    oninput="sanitizePriceInput()">
+                            </div>
+                            <span class="field-hint">Whole pesos only, no centavos.</span>
+                            <span class="field-error" id="priceError"></span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="form-block">
+
+                    <div class="block-head">
+                        <span class="block-num">2</span>
+                        <div>
+                            <h3>Options</h3>
+                            <p>Sizes, colors or scents available for this product.</p>
+                        </div>
+                    </div>
+
+                    <p class="variant-hint" id="variantHint">
+                        Select a category above to choose its sizes, colors or scents.
+                    </p>
+
+                    <div class="form-grid">
+
+                        <div class="field variant-field" id="sizeGroup">
+                            <label>Sizes</label>
+                            <div class="variant-options" id="sizeOptions"></div>
+                        </div>
+
+                        <div class="field variant-field" id="colorGroup">
+                            <label>Colors</label>
+                            <div class="variant-options" id="colorOptions"></div>
+
+                            <div class="manual-entry">
+                                <span class="manual-title">Other color</span>
+                                <div class="manual-row">
+                                    <input
+                                        type="text"
+                                        id="manualColor"
+                                        autocomplete="off"
+                                        maxlength="40"
+                                        placeholder="Type a color, then press Add"
+                                        onkeydown="manualEntryKey(event, 'color')"
+                                        oninput="clearFieldError('manualColor')">
+                                    <button type="button" class="manual-add-btn" onclick="addManualValue('color')">Add</button>
+                                </div>
+                                <span class="field-error" id="manualColorError"></span>
+                                <div class="manual-chips" id="manualColorChips"></div>
+                            </div>
+                        </div>
+
+                        <div class="field variant-field full" id="scentGroup">
+                            <label>Scents</label>
+
+                            <div class="manual-entry">
+                                <div class="manual-row">
+                                    <input
+                                        type="text"
+                                        id="manualScent"
+                                        autocomplete="off"
+                                        maxlength="40"
+                                        placeholder="Type a scent, then press Add"
+                                        onkeydown="manualEntryKey(event, 'scent')"
+                                        oninput="clearFieldError('manualScent')">
+                                    <button type="button" class="manual-add-btn" onclick="addManualValue('scent')">Add</button>
+                                </div>
+                                <span class="field-hint">Add one at a time, or separate several with commas.</span>
+                                <span class="field-error" id="manualScentError"></span>
+                                <div class="manual-chips" id="manualScentChips"></div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="form-block">
+
+                    <div class="block-head">
+                        <span class="block-num">3</span>
+                        <div>
+                            <h3>Photos</h3>
+                            <p>Add one photo or several. The first photo is the cover.</p>
+                        </div>
+                        <span class="photo-counter" id="imageCounter">0 / 6</span>
+                    </div>
+
+                    <div class="upload-zone" id="productImageZone">
+
+                        <input
+                            type="file"
+                            id="productImage"
+                            accept="image/*"
+                            multiple>
+
+                        <div class="upload-content">
+                            <span class="upload-icon">＋</span>
+                            <strong id="uploadText">Add photos</strong>
+                            <span>Drag and drop, or click to browse. One photo is enough.</span>
+                        </div>
+
+                    </div>
+
+                    <div class="image-grid" id="imageGrid"></div>
+
+                    <span class="field-error" id="productImageError"></span>
 
                 </div>
 
@@ -212,6 +303,8 @@
                     <h2>Product List</h2>
                     <p>Manage the products currently registered in the system.</p>
                 </div>
+
+                <span class="record-count" id="productCount"><strong>0</strong> Products</span>
 
             </div>
 
@@ -258,27 +351,32 @@
             </div>
         </header>
 
-        <section class="summary-grid">
+        <section class="summary-grid five">
 
-            <div class="summary-card">
+            <button type="button" class="summary-card summary-filter" data-filter="" onclick="setAuditFilter('')">
                 <span class="summary-label">TOTAL ACTIVITIES</span>
                 <strong id="totalActivities">0</strong>
-            </div>
+            </button>
 
-            <div class="summary-card">
-                <span class="summary-label">ADDED</span>
+            <button type="button" class="summary-card summary-filter" data-filter="Added" onclick="setAuditFilter('Added')">
+                <span class="summary-label"><i class="dot action-added"></i>ADDED</span>
                 <strong id="addedCount">0</strong>
-            </div>
+            </button>
 
-            <div class="summary-card">
-                <span class="summary-label">UPDATED</span>
+            <button type="button" class="summary-card summary-filter" data-filter="Updated" onclick="setAuditFilter('Updated')">
+                <span class="summary-label"><i class="dot action-updated"></i>UPDATED</span>
                 <strong id="updatedCount">0</strong>
-            </div>
+            </button>
 
-            <div class="summary-card">
-                <span class="summary-label">DELETED</span>
+            <button type="button" class="summary-card summary-filter" data-filter="Deleted" onclick="setAuditFilter('Deleted')">
+                <span class="summary-label"><i class="dot action-deleted"></i>DELETED</span>
                 <strong id="deletedCount">0</strong>
-            </div>
+            </button>
+
+            <button type="button" class="summary-card summary-filter" data-filter="Restored" onclick="setAuditFilter('Restored')">
+                <span class="summary-label"><i class="dot action-restored"></i>RESTORED</span>
+                <strong id="restoredCount">0</strong>
+            </button>
 
         </section>
 
@@ -291,7 +389,7 @@
                     <p>Product changes are recorded automatically.</p>
                 </div>
 
-                <span id="recordCount">0 Records</span>
+                <span class="record-count" id="recordCount"><strong>0</strong> Records</span>
 
             </div>
 
@@ -302,6 +400,25 @@
                     id="auditSearchInput"
                     placeholder="Search product or code..."
                     oninput="displayAudit()">
+
+                <div class="date-filter" id="auditDateWrap">
+
+                    <input
+                        type="date"
+                        id="auditDateFilter"
+                        title="Show only activity on this date"
+                        aria-label="Filter by date"
+                        onchange="displayAudit()">
+
+                    <button
+                        type="button"
+                        class="date-clear"
+                        id="auditDateClear"
+                        title="Clear date"
+                        aria-label="Clear date filter"
+                        onclick="clearAuditDate()">×</button>
+
+                </div>
 
                 <select
                     id="actionFilter"
@@ -323,9 +440,7 @@
 
                     <thead>
                         <tr>
-                            <th>Date</th>
-                            <th>User</th>
-                            <th>Code</th>
+                            <th>When</th>
                             <th>Product</th>
                             <th>Action</th>
                             <th>Changes</th>
@@ -336,9 +451,7 @@
 
                 </table>
 
-                <div class="empty" id="emptyMessage">
-                    No audit records found.
-                </div>
+                <div class="empty-state" id="emptyMessage"></div>
 
             </div>
 
@@ -365,7 +478,7 @@
                     <p>Deleted products are automatically moved here.</p>
                 </div>
 
-                <span id="archiveRecordCount">0 Records</span>
+                <span class="record-count" id="archiveRecordCount"><strong>0</strong> Records</span>
 
             </div>
 
