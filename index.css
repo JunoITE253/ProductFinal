@@ -1616,11 +1616,13 @@ td {
     }
 
     .modal-overlay {
-        padding: 16px;
+        padding: 12px;
     }
 
     .modal {
+        width: 100%;
         max-width: 100%;
+        height: 94vh;
         max-height: 94vh;
         border-radius: 14px;
     }
@@ -1638,26 +1640,136 @@ td {
     }
 
     #stockForm {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        min-height: 0;
         padding: 17px 20px 20px;
+        overflow: hidden;
+    }
+
+    #variantStockContainer {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        min-height: 0;
+        overflow: hidden;
+    }
+
+    .variant-stock-title {
+        flex-shrink: 0;
+        margin-bottom: 5px;
+        font-size: 13px;
+    }
+
+    .variant-stock-info {
+        flex-shrink: 0;
+        margin-bottom: 13px;
+        font-size: 10px;
+        line-height: 1.5;
     }
 
     .variant-stock-list {
-        max-height: 48vh;
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        min-height: 0;
+        max-height: none;
+        gap: 10px;
+        overflow-y: auto;
+        overflow-x: hidden;
+        padding: 2px 5px 12px 0;
+        margin: 0;
+        scrollbar-gutter: stable;
     }
 
     .variant-stock-row {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        gap: 13px;
+        width: 100%;
+        min-width: 0;
         min-height: 0;
         padding: 16px;
+        border: 1px solid var(--line);
+        border-radius: 12px;
+        background: #fff;
+    }
+
+    .variant-stock-row:hover {
+        border-color: #d5c29e;
+        box-shadow: 0 5px 16px rgba(41, 38, 36, .06);
+    }
+
+    .variant-stock-row.stock-row-changed {
+        border-color: rgba(208, 169, 92, .75);
+        background: rgba(208, 169, 92, .08);
+        box-shadow: 0 0 0 1px rgba(208, 169, 92, .15);
+    }
+
+    .variant-stock-name {
+        width: 100%;
+        min-width: 0;
+        gap: 8px;
+    }
+
+    .variant-stock-name strong {
+        font-size: 12px;
+        line-height: 1.35;
+        white-space: normal;
+        overflow: visible;
+        text-overflow: clip;
+    }
+
+    .variant-stock-status {
+        flex-shrink: 0;
+        padding: 5px 8px;
+        font-size: 9px;
     }
 
     .variant-stock-row .stock-input-group:nth-last-child(2),
     .variant-stock-row .stock-input-group:last-child {
         position: static;
+        left: auto;
+        right: auto;
+        bottom: auto;
         width: 100%;
     }
 
+    .stock-input-group {
+        width: 100%;
+        gap: 5px;
+    }
+
+    .stock-input-group label {
+        font-size: 9px;
+    }
+
+    .stock-input-group input {
+        width: 100%;
+        height: 40px;
+        font-size: 13px;
+    }
+
+    .stock-change-note {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        margin-top: 0;
+        padding-top: 9px;
+        font-size: 10px;
+    }
+
+    .modal-message {
+        flex-shrink: 0;
+        min-height: 18px;
+        margin: 7px 0 0;
+    }
+
     .modal-actions {
+        flex-shrink: 0;
         margin: 0 -20px -20px;
         padding: 15px 20px 19px;
     }
@@ -1688,10 +1800,11 @@ td {
     }
 
     .modal-overlay {
-        padding: 10px;
+        padding: 8px;
     }
 
     .modal {
+        height: 95vh;
         max-height: 95vh;
         border-radius: 12px;
     }
@@ -1706,6 +1819,7 @@ td {
 
     .product-preview {
         margin: 12px 17px 0;
+        padding: 11px 12px;
     }
 
     #stockForm {
@@ -1713,19 +1827,27 @@ td {
     }
 
     .variant-stock-list {
-        grid-template-columns: 1fr;
-        max-height: 50vh;
-    }
-
-    .variant-stock-row .stock-input-group:nth-last-child(2),
-    .variant-stock-row .stock-input-group:last-child {
-        position: static;
-        width: 100%;
+        gap: 9px;
+        padding-right: 4px;
     }
 
     .variant-stock-row {
-        min-height: 0;
-        padding-bottom: 16px;
+        padding: 15px;
+        border-radius: 11px;
+        gap: 12px;
+    }
+
+    .variant-stock-name strong {
+        font-size: 12px;
+    }
+
+    .variant-stock-status {
+        padding: 5px 7px;
+        font-size: 8px;
+    }
+
+    .stock-input-group input {
+        height: 40px;
     }
 
     .restock-card-header {
